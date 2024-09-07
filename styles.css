@@ -542,68 +542,263 @@ body {
 .ajax_fireprotect .monitoring {
   padding: 32px 16px;
   display: grid;
+  gap: 24px;
 }
+
 .ajax_fireprotect .monitoring-title {
-}
-.ajax_fireprotect .monitoring-bg-image {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #181818;
 }
 .ajax_fireprotect .monitoring-bg-description {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  color: #fff;
+}
+.ajax_fireprotect .monitoring-containers {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, 160px);
+  grid-template-rows: repeat(3, 100px);
+}
+.ajax_fireprotect .monitoring-bg-image-kitchen {
+  background-image: url("https://i.citrus.world/uploads/Haber/Ajax/kitchen.webp");
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 8px 16px;
+  display: grid;
+  align-items: end;
+}
+.ajax_fireprotect .monitoring-bg-image-living-room {
+  background-image: url("https://i.citrus.world/uploads/Haber/Ajax/living-room.webp");
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 8px 16px;
+  display: grid;
+  align-items: end;
+}
+.ajax_fireprotect .monitoring-bg-image-bed-room {
+  background-image: url("https://i.citrus.world/uploads/Haber/Ajax/bed-room.webp");
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 8px 16px;
+  display: grid;
+  align-items: end;
+}
+.ajax_fireprotect .monitoring-bg-image-home-office {
+  background-image: url("https://i.citrus.world/uploads/Haber/Ajax/home-office.webp");
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 8px 16px;
+  display: grid;
+  align-items: end;
+}
+.ajax_fireprotect .monitoring-bg-image-attic {
+  background-image: url("https://i.citrus.world/uploads/Haber/Ajax/attic.webp");
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 8px 16px;
+  display: grid;
+  align-items: end;
+}
+.ajax_fireprotect .monitoring-bg-image-basement {
+  background-image: url("https://i.citrus.world/uploads/Haber/Ajax/basement.webp");
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 8px 16px;
+  display: grid;
+  align-items: end;
 }
 .ajax_fireprotect .patented-chamber {
+  padding: 32px 16px;
+  display: grid;
+  gap: 8px;
 }
 .ajax_fireprotect .patented-chamber-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #181818;
 }
 .ajax_fireprotect .patented-chamber-description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #181818;
 }
 .ajax_fireprotect .about-video {
+  width: 100%;
 }
 .ajax_fireprotect .protection {
+  padding: 32px 16px;
 }
 .ajax_fireprotect .protection-image {
+  border-radius: 10px;
+  margin-bottom: 16px;
 }
 .ajax_fireprotect .protection-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 8px;
 }
 .ajax_fireprotect .protection-description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #181818;
 }
 .ajax_fireprotect .smart-ignoring {
+  padding: 0px 16px 32px 16px;
 }
+
 .ajax_fireprotect .smart-ignoring-image {
+  border-radius: 10px;
+  margin-bottom: 16px;
 }
 .ajax_fireprotect .smart-ignoring-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 8px;
 }
 .ajax_fireprotect .smart-ignoring-description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #181818;
 }
 .ajax_fireprotect .threats {
+  padding: 0px 16px 24px 16px;
+}
+.ajax_fireprotect .threats-second {
+  padding: 32px 16px;
 }
 .ajax_fireprotect .threats-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 8px;
 }
 .ajax_fireprotect .threats-description {
+  width: 325px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #181818;
 }
 .ajax_fireprotect .threats-image {
+  width: 100%;
 }
 .ajax_fireprotect .co-concentration {
+  padding: 0px 16px 32px 16px;
 }
 .ajax_fireprotect .co-concentration-image {
+  border-radius: 10px;
+  margin-bottom: 16px;
 }
 .ajax_fireprotect .co-concentration-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 8px;
 }
 .ajax_fireprotect .co-concentration-description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #181818;
 }
 .ajax_fireprotect .alarm {
+  padding: 0px 16px;
 }
 .ajax_fireprotect .alarm-image {
+  border-radius: 10px;
+  margin-bottom: 16px;
 }
 .ajax_fireprotect .alarm-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 8px;
 }
 .ajax_fireprotect .alarm-list {
+  margin: 0;
 }
 .ajax_fireprotect .alarm-items {
+  list-style-type: none;
+  position: relative;
+}
+
+.ajax_fireprotect .alarm-items::before {
+  content: "•";
+  position: absolute;
+  left: 8px;
+  top: 4px;
 }
 .ajax_fireprotect .alarm-items-description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #181818;
+  text-align: center;
 }
 .ajax_fireprotect .smokeless-fire {
+  padding: 32px 16px;
 }
 .ajax_fireprotect .smokeless-fire-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 8px;
 }
 .ajax_fireprotect .smokeless-fire-description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #181818;
 }
