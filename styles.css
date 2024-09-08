@@ -646,10 +646,17 @@ body {
 }
 .ajax_fireprotect .protection {
   padding: 32px 16px;
+  display: grid;
+  gap: 16px;
 }
+
+.ajax_fireprotect .protection-container {
+  display: grid;
+  gap: 8px;
+}
+
 .ajax_fireprotect .protection-image {
   border-radius: 10px;
-  margin-bottom: 16px;
 }
 .ajax_fireprotect .protection-title {
   font-family: var(--font-family);
@@ -658,8 +665,8 @@ body {
   line-height: 120%;
   text-align: center;
   color: #181818;
-  margin-bottom: 8px;
 }
+
 .ajax_fireprotect .protection-description {
   font-family: var(--font-family);
   font-weight: 400;
@@ -668,14 +675,22 @@ body {
   text-align: center;
   color: #181818;
 }
+
 .ajax_fireprotect .smart-ignoring {
   padding: 0px 16px 32px 16px;
+  display: grid;
+  gap: 16px;
+}
+
+.ajax_fireprotect .smart-ignoring-container {
+  display: grid;
+  gap: 8px;
 }
 
 .ajax_fireprotect .smart-ignoring-image {
   border-radius: 10px;
-  margin-bottom: 16px;
 }
+
 .ajax_fireprotect .smart-ignoring-title {
   font-family: var(--font-family);
   font-weight: 500;
@@ -683,8 +698,8 @@ body {
   line-height: 120%;
   text-align: center;
   color: #181818;
-  margin-bottom: 8px;
 }
+
 .ajax_fireprotect .smart-ignoring-description {
   font-family: var(--font-family);
   font-weight: 400;
@@ -693,9 +708,11 @@ body {
   text-align: center;
   color: #181818;
 }
+
 .ajax_fireprotect .threats {
   padding: 0px 16px 24px 16px;
 }
+
 .ajax_fireprotect .threats-second {
   padding: 32px 16px;
 }
@@ -727,6 +744,15 @@ body {
   border-radius: 10px;
   margin-bottom: 16px;
 }
+
+.ajax_fireprotect .co-concentration-description-container {
+  list-style-type: none;
+  margin: 0;
+}
+.ajax_fireprotect .co-concentration-description-container-items {
+  position: relative;
+}
+
 .ajax_fireprotect .co-concentration-title {
   font-family: var(--font-family);
   font-weight: 500;
@@ -768,6 +794,10 @@ body {
   position: relative;
 }
 
+.ajax_fireprotect .alarm-items:first-child:before {
+  content: none;
+}
+
 .ajax_fireprotect .alarm-items::before {
   content: "•";
   position: absolute;
@@ -801,4 +831,1538 @@ body {
   line-height: 150%;
   text-align: center;
   color: #181818;
+}
+
+@media (min-width: 768px) {
+  .ajax_fireprotect .hero {
+    padding: 48px 40px;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .hero-title {
+    font-size: 28px;
+  }
+
+  .ajax_fireprotect .hero-description {
+    font-size: 14px;
+  }
+
+  .ajax_fireprotect .precision {
+    padding: 48px 40px;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .precision-title {
+    font-size: 28px;
+  }
+
+  .ajax_fireprotect .precision-description {
+    font-size: 14px;
+  }
+
+  .ajax_fireprotect .about {
+    padding: 0 40px;
+    gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 499px;
+  }
+
+  .ajax_fireprotect .about-sensors {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 161px 330px);
+    gap: 8px;
+  }
+
+  .ajax_fireprotect .about-sensors-devises {
+    grid-column: 1 / 3;
+    border-radius: 16px;
+    padding: 24px 16px;
+    justify-items: center;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .about-sensors-devises-title {
+    font-size: 12px;
+    width: 116px;
+  }
+
+  .ajax_fireprotect .about-sensors-devises-image {
+    width: 116px;
+  }
+
+  .ajax_fireprotect .about-sensors-batteries {
+    border-radius: 16px;
+    padding: 24px 0;
+    gap: 32px;
+    justify-items: center;
+    grid-template-rows: 36px 1fr;
+    align-items: start;
+  }
+
+  .ajax_fireprotect .about-sensors-batteries-title {
+    font-size: 12px;
+  }
+
+  .ajax_fireprotect .about-sensors-batteries-container {
+    border-radius: 16px;
+    padding: 0;
+    gap: 32px;
+  }
+
+  .about-sensors-batteries-container-item {
+    justify-items: center;
+  }
+
+  .ajax_fireprotect .about-sensors-batteries-container-image {
+    width: 40px;
+  }
+
+  .ajax_fireprotect .about-sensors-batteries-description {
+    font-size: 10px;
+  }
+
+  .ajax_fireprotect .about-sensors-detector {
+    border-radius: 16px;
+    padding: 24px 16px;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .about-sensors-detector-title {
+    font-size: 12px;
+  }
+
+  .ajax_fireprotect .about-sensors-detector-container {
+    display: grid;
+    gap: 8px;
+    justify-items: center;
+  }
+
+  .ajax_fireprotect .about-sensors-detector-container-image {
+    width: 40px;
+  }
+
+  .ajax_fireprotect .about-sensors-detector-description {
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+
+  .ajax_fireprotect .about-comunication {
+    gap: 8px;
+    grid-template-rows: repeat(3, 161px);
+  }
+
+  .ajax_fireprotect .about-comunication-standarts {
+    border-radius: 16px;
+    padding: 24px 32px;
+    gap: 24px;
+  }
+
+  .ajax_fireprotect .about-comunication-standarts-title {
+    font-size: 12px;
+  }
+
+  .ajax_fireprotect .about-comunication-standarts-img-container {
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .about-comunication-standarts-image {
+    width: 40px;
+  }
+
+  .ajax_fireprotect .about-comunication-remote {
+    border-radius: 16px;
+    padding: 14px 32px;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .about-comunication-remote-title {
+    font-size: 12px;
+  }
+
+  .ajax_fireprotect .about-comunication-remote-image {
+    width: 130px;
+  }
+
+  .ajax_fireprotect .about-comunication-siren {
+    padding: 0px;
+    height: 100%;
+  }
+
+  .ajax_fireprotect .about-comunication-siren-bg-image {
+    border-radius: 16px;
+    height: 100%;
+    background-image: url(" https://i.citrus.world/uploads/Haber/Ajax/about-comunication-siren-bg-image-768p.webp");
+  }
+
+  .ajax_fireprotect .about-comunication-siren-title {
+    margin-top: 111px;
+    width: 100%;
+  }
+
+  .ajax_fireprotect .about-notification {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .ajax_fireprotect .about-notification-container {
+    border-radius: 16px;
+    padding: 12px 8px;
+    align-content: space-between;
+    gap: 6px;
+    grid-template-rows: 36px 71px 101px;
+  }
+
+  .ajax_fireprotect .about-notification-title {
+    font-size: 12px;
+  }
+
+  .ajax_fireprotect .about-notification-message {
+    border-radius: 16px;
+    padding: 9px;
+    grid-template-columns: 38px 95px 15px;
+    grid-template-rows: 21px 1fr;
+    column-gap: 10px;
+    align-items: center;
+    background-color: #ededed;
+  }
+
+  .ajax_fireprotect .about-notification-message-image {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 38px;
+  }
+
+  .ajax_fireprotect .about-notification-message-title {
+    width: 150px;
+    font-size: 14px;
+  }
+
+  .ajax_fireprotect .about-notification-message-description {
+    grid-column: 2/4;
+    font-size: 10px;
+  }
+
+  .ajax_fireprotect .about-notification-message-uppertitle {
+    font-size: 10px;
+  }
+
+  .ajax_fireprotect .about-notification-jeweller {
+    border-radius: 16px;
+    padding: 32px 8px;
+    gap: 16px;
+    align-content: center;
+  }
+
+  .ajax_fireprotect .about-notification-jeweller-image {
+    width: 64px;
+  }
+
+  .ajax_fireprotect .about-notification-jeweller-description {
+    font-size: 14px;
+  }
+
+  .ajax_fireprotect .specification {
+    padding: 48px 40px 0px 40px;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 193px 193px;
+  }
+
+  .ajax_fireprotect .specification-container {
+    display: grid;
+    gap: 8px;
+    margin-bottom: 0px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+
+  .ajax_fireprotect .grid-position {
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+
+  .ajax_fireprotect .specification-range {
+    border-radius: 16px;
+    padding: 24px 32px;
+  }
+
+  .ajax_fireprotect .specification-range-description {
+    font-size: 14px;
+  }
+
+  .ajax_fireprotect .specification-part-system {
+    border-radius: 16px;
+    padding: 24px 32px;
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+
+  .ajax_fireprotect .specification-part-system-description {
+    font-size: 12px;
+  }
+
+  .ajax_fireprotect .specification-colors {
+    border-radius: 16px;
+    padding: 17px 37px;
+    justify-items: center;
+    gap: 24px;
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+
+  .ajax_fireprotect .specification-colors-image {
+    width: 135px;
+  }
+
+  .ajax_fireprotect .specification-colors-description {
+    font-size: 12px;
+  }
+
+  .ajax_fireprotect .specification-optical-detector {
+    align-content: space-between;
+    border-radius: 16px;
+    padding: 0;
+    height: 100%;
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  .ajax_fireprotect .specification-optical-detector-description {
+    margin-top: 32px;
+    width: 160px;
+    font-size: 12px;
+  }
+
+  .ajax_fireprotect .specification-smartbracket {
+    padding: 18px;
+    border-radius: 16px;
+    gap: 16px;
+    justify-items: center;
+  }
+
+  .ajax_fireprotect .specification-smartbracket-image {
+    width: 100%;
+  }
+
+  .ajax_fireprotect .specification-smartbracket-description {
+    font-size: 12px;
+    width: 160px;
+  }
+
+  .ajax_fireprotect .specification-mounting {
+    border-radius: 16px;
+    padding: 24px 0px;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .specification-mounting-title {
+    font-size: 12px;
+  }
+
+  .ajax_fireprotect .specification-mounting-list {
+    padding: 0px 16px;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .ajax_fireprotect .specification-mounting-items:nth-child(3) {
+    grid-column: 1/3;
+    justify-content: center;
+  }
+
+  .ajax_fireprotect .specification-mounting-items {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .ajax_fireprotect .specification-mounting-items-image {
+    width: 40px;
+  }
+
+  .ajax_fireprotect .specification-mounting-items-description {
+    font-size: 10px;
+  }
+
+  .ajax_fireprotect .specification-chamber {
+    border-radius: 16px;
+    padding: 0px 32px;
+    height: 100%;
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+
+  .ajax_fireprotect .specification-chamber-description {
+    font-size: 12px;
+    margin-bottom: 32px;
+  }
+
+  .ajax_fireprotect .monitoring {
+    padding: 48px 40px;
+    gap: 24px;
+  }
+
+  .ajax_fireprotect .monitoring-title {
+    font-size: 28px;
+  }
+
+  .ajax_fireprotect .monitoring-bg-description {
+    font-size: 14px;
+  }
+
+  .ajax_fireprotect .monitoring-containers {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3, 208px);
+    grid-template-rows: repeat(2, 130px);
+  }
+
+  .ajax_fireprotect .monitoring-bg-image-kitchen {
+    border-radius: 16px;
+    padding: 16px;
+  }
+
+  .ajax_fireprotect .monitoring-bg-image-living-room {
+    border-radius: 16px;
+    padding: 16px;
+  }
+
+  .ajax_fireprotect .monitoring-bg-image-bed-room {
+    border-radius: 16px;
+    padding: 16px;
+  }
+
+  .ajax_fireprotect .monitoring-bg-image-home-office {
+    border-radius: 16px;
+    padding: 16px;
+  }
+
+  .ajax_fireprotect .monitoring-bg-image-attic {
+    border-radius: 16px;
+    padding: 16px;
+  }
+
+  .ajax_fireprotect .monitoring-bg-image-basement {
+    border-radius: 16px;
+    padding: 16px;
+  }
+
+  .ajax_fireprotect .patented-chamber {
+    padding: 0px 40px 32px 40px;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .patented-chamber-title {
+    font-size: 28px;
+  }
+
+  .ajax_fireprotect .patented-chamber-description {
+    font-size: 14px;
+  }
+
+  .ajax_fireprotect .protection {
+    padding: 48px 40px;
+    display: grid;
+    column-gap: 40px;
+    row-gap: 0;
+    grid-template-columns: 253px 347px;
+  }
+
+  .ajax_fireprotect .protection-container {
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .protection-image {
+    border-radius: 8px;
+    margin-bottom: 0px;
+    grid-row: 1/3;
+    grid-column: 1/2;
+  }
+
+  .ajax_fireprotect .protection-title {
+    font-size: 28px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
+  .ajax_fireprotect .protection-description {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .ajax_fireprotect .smart-ignoring {
+    padding: 48px 40px;
+    align-items: center;
+    column-gap: 40px;
+    row-gap: 16px;
+    grid-template-columns: 347px 253px;
+  }
+
+  .ajax_fireprotect .smart-ignoring-container {
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .smart-ignoring-image {
+    border-radius: 10px;
+    margin-bottom: 0px;
+    grid-row: 1/3;
+    grid-column: 2/3;
+  }
+
+  .ajax_fireprotect .smart-ignoring-title {
+    font-size: 28px;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+
+  .ajax_fireprotect .smart-ignoring-description {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .ajax_fireprotect .threats {
+    padding: 0px 40px 32px 40px;
+  }
+
+  .ajax_fireprotect .threats-second {
+    padding: 48px 40px;
+  }
+
+  .ajax_fireprotect .threats-title {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+
+  .ajax_fireprotect .threats-description {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .ajax_fireprotect .threats-image {
+    width: 100%;
+  }
+
+  .ajax_fireprotect .co-concentration {
+    padding: 0px 40px 48px 40px;
+    display: grid;
+    align-items: center;
+    column-gap: 40px;
+    grid-template-columns: 253px 347px;
+  }
+
+  .ajax_fireprotect .co-concentration-image {
+    border-radius: 8px;
+    margin-bottom: 0px;
+    grid-column: 1/2;
+  }
+
+  .ajax_fireprotect .co-concentration-title {
+    font-size: 28px;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+
+  .ajax_fireprotect .co-concentration-description-container {
+    grid-column: 2/3;
+  }
+
+  .ajax_fireprotect
+    .co-concentration-description-container-items:first-child::before {
+    content: none;
+  }
+
+  .ajax_fireprotect .co-concentration-description {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 25px;
+  }
+
+  .ajax_fireprotect .co-concentration-description-container-items:before {
+    content: "•";
+    position: absolute;
+    left: 8px;
+    top: 4px;
+  }
+
+  .ajax_fireprotect .alarm {
+    padding: 0px 40px;
+    display: grid;
+    align-items: center;
+    column-gap: 40px;
+    grid-template-columns: 1fr 253px;
+  }
+
+  .ajax_fireprotect .alarm-image {
+    border-radius: 10px;
+    margin-bottom: 0px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .ajax_fireprotect .alarm-title {
+    font-size: 28px;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+
+  .ajax_fireprotect .alarm-items::before {
+    content: "•";
+    position: absolute;
+    left: 8px;
+    top: 4px;
+  }
+
+  .ajax_fireprotect .alarm-items-description {
+    font-size: 16px;
+    margin-left: 25px;
+    text-align: left;
+  }
+
+  .ajax_fireprotect .smokeless-fire {
+    padding: 48px 40px;
+  }
+
+  .ajax_fireprotect .smokeless-fire-title {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+
+  .ajax_fireprotect .smokeless-fire-description {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ajax_fireprotect .hero {
+    padding: 56px 48px;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .hero-title {
+    font-size: 38px;
+  }
+
+  .ajax_fireprotect .hero-description {
+    font-size: 16px;
+  }
+
+  .ajax_fireprotect .precision {
+    padding: 56px 48px;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .precision-title {
+    font-size: 38px;
+  }
+
+  .ajax_fireprotect .precision-description {
+    width: 800px;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+
+  .ajax_fireprotect .about {
+    padding: 0 48px;
+    gap: 12px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 547px;
+  }
+
+  .ajax_fireprotect .about-sensors {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 175px 360px);
+    gap: 12px;
+  }
+
+  .ajax_fireprotect .about-sensors-devises {
+    padding: 22px;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .about-sensors-devises-title {
+    font-size: 16px;
+    width: 146px;
+  }
+
+  .ajax_fireprotect .about-sensors-devises-image {
+    width: 124px;
+  }
+
+  .ajax_fireprotect .about-sensors-batteries {
+    padding: 24px 10px;
+    gap: 32px;
+    grid-template-rows: 36px 1fr;
+    align-items: start;
+  }
+
+  .ajax_fireprotect .about-sensors-batteries-title {
+    font-size: 16px;
+  }
+
+  .ajax_fireprotect .about-sensors-batteries-container {
+    gap: 32px;
+    padding: 8px;
+  }
+
+  .ajax_fireprotect .about-sensors-batteries-container-image {
+    width: 40px;
+    margin-bottom: 4px;
+  }
+
+  .ajax_fireprotect .about-sensors-batteries-description {
+    font-size: 16px;
+  }
+
+  .ajax_fireprotect .about-sensors-detector {
+    padding: 24px 16px;
+    gap: 32px;
+  }
+
+  .ajax_fireprotect .about-sensors-detector-title {
+    font-size: 16px;
+  }
+
+  .ajax_fireprotect .about-sensors-detector-container {
+    gap: 8px;
+  }
+
+  .ajax_fireprotect .about-sensors-detector-container-image {
+    width: 40px;
+  }
+
+  .ajax_fireprotect .about-sensors-detector-description {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .ajax_fireprotect .about-comunication {
+    gap: 12px;
+    grid-template-rows: repeat(3, 174px);
+  }
+
+  .ajax_fireprotect .about-comunication-standarts {
+    padding: 24px 32px;
+    gap: 24px;
+  }
+
+  .ajax_fireprotect .about-comunication-standarts-title {
+    font-size: 16px;
+  }
+
+  .ajax_fireprotect .about-comunication-standarts-img-container {
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .about-comunication-standarts-image {
+    width: 48px;
+  }
+
+  .ajax_fireprotect .about-comunication-remote {
+    padding: 14px 32px;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .about-comunication-remote-title {
+    font-size: 16px;
+  }
+
+  .ajax_fireprotect .about-comunication-remote-image {
+    width: 134px;
+  }
+
+  .ajax_fireprotect .about-comunication-siren {
+    padding: 0px;
+    height: 100%;
+  }
+
+  .ajax_fireprotect .about-comunication-siren-bg-image {
+    border-radius: 16px;
+    height: 100%;
+    background-image: url(" https://i.citrus.world/uploads/Haber/Ajax/about-comunication-siren-bg-image-1024p.webp");
+  }
+
+  .ajax_fireprotect .about-comunication-siren-title {
+    font-size: 16px;
+    margin-top: 118px;
+    width: 100%;
+  }
+
+  .ajax_fireprotect .about-notification {
+    gap: 8px;
+  }
+
+  .ajax_fireprotect .about-notification-container {
+    padding: 8px 16px;
+    align-content: center;
+    gap: 6px;
+    grid-template-rows: 48px 77px 113px;
+  }
+
+  .ajax_fireprotect .about-notification-title {
+    font-size: 16px;
+  }
+
+  .ajax_fireprotect .about-notification-message {
+    border-radius: 16px;
+    padding: 10px;
+    grid-template-columns: 38px 1fr 18px;
+    grid-template-rows: 21px 1fr;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .ajax_fireprotect .about-notification-message-image {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 40px;
+  }
+
+  .ajax_fireprotect .about-notification-message-title {
+    width: 150px;
+    font-size: 13px;
+  }
+
+  .ajax_fireprotect .about-notification-message-description {
+    grid-column: 2/4;
+    font-size: 11px;
+    width: 170px;
+  }
+
+  .ajax_fireprotect .about-notification-message-uppertitle {
+    font-size: 11px;
+  }
+
+  .ajax_fireprotect .about-notification-jeweller {
+    padding: 32px;
+    gap: 25px;
+    align-content: center;
+  }
+
+  .ajax_fireprotect .about-notification-jeweller-image {
+    width: 64px;
+  }
+
+  .ajax_fireprotect .about-notification-jeweller-description {
+    font-size: 20px;
+  }
+
+  .ajax_fireprotect .specification {
+    padding: 56px 48px 0px 48px;
+    gap: 12px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 232px 232px;
+  }
+
+  .ajax_fireprotect .specification-container {
+    gap: 12px;
+  }
+
+  .ajax_fireprotect .specification-range {
+    padding: 24px 32px;
+  }
+
+  .ajax_fireprotect .specification-range-description {
+    font-size: 20px;
+  }
+
+  .ajax_fireprotect .specification-part-system {
+    border-radius: 16px;
+    padding: 24px 32px;
+  }
+
+  .ajax_fireprotect .specification-part-system-description {
+    font-size: 16px;
+  }
+
+  .ajax_fireprotect .specification-colors {
+    border-radius: 16px;
+    padding: 27px 52px;
+    gap: 24px;
+  }
+
+  .ajax_fireprotect .specification-colors-image {
+    width: 100%;
+  }
+
+  .ajax_fireprotect .specification-colors-description {
+    font-size: 16px;
+  }
+
+  .ajax_fireprotect .specification-optical-detector {
+    padding: 0 16px;
+    height: 100%;
+  }
+
+  .ajax_fireprotect .specification-optical-detector-description {
+    margin-top: 32px;
+    width: 230px;
+    font-size: 16px;
+  }
+
+  .ajax_fireprotect .specification-smartbracket {
+    padding: 26px 30px;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .specification-smartbracket-image {
+    width: 100%;
+  }
+
+  .ajax_fireprotect .specification-smartbracket-description {
+    font-size: 16px;
+    width: 180px;
+  }
+
+  .ajax_fireprotect .specification-mounting {
+    padding: 24px 16px;
+    gap: 24px;
+  }
+
+  .ajax_fireprotect .specification-mounting-title {
+    font-size: 16px;
+  }
+
+  .ajax_fireprotect .specification-mounting-list {
+    padding: 0px 30px;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .specification-mounting-items {
+    gap: 8px;
+  }
+
+  .ajax_fireprotect .specification-mounting-items-image {
+    width: 40px;
+  }
+
+  .ajax_fireprotect .specification-mounting-items-description {
+    font-size: 12px;
+  }
+
+  .ajax_fireprotect .specification-chamber {
+    padding: 0px 32px;
+  }
+
+  .ajax_fireprotect .specification-chamber-description {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+
+  .ajax_fireprotect .monitoring {
+    padding: 56px 48px;
+    gap: 24px;
+  }
+
+  .ajax_fireprotect .monitoring-title {
+    font-size: 38px;
+  }
+
+  .ajax_fireprotect .monitoring-bg-description {
+    font-size: 20px;
+  }
+
+  .ajax_fireprotect .monitoring-containers {
+    gap: 12px;
+    grid-template-columns: repeat(3, 285px);
+    grid-template-rows: repeat(2, 177px);
+  }
+
+  .ajax_fireprotect .monitoring-bg-image-kitchen {
+    padding: 24px;
+  }
+
+  .ajax_fireprotect .monitoring-bg-image-living-room {
+    padding: 24px;
+  }
+
+  .ajax_fireprotect .monitoring-bg-image-bed-room {
+    padding: 24px;
+  }
+
+  .ajax_fireprotect .monitoring-bg-image-home-office {
+    padding: 24px;
+  }
+
+  .ajax_fireprotect .monitoring-bg-image-attic {
+    padding: 24px;
+  }
+
+  .ajax_fireprotect .monitoring-bg-image-basement {
+    padding: 24px;
+  }
+
+  .ajax_fireprotect .patented-chamber {
+    padding: 0px 48px 40px 48px;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .patented-chamber-title {
+    font-size: 38px;
+  }
+
+  .ajax_fireprotect .patented-chamber-description {
+    font-size: 16px;
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .ajax_fireprotect .protection {
+    padding: 56px 48px;
+    column-gap: 48px;
+    grid-template-columns: 353px 480px;
+    grid-template-rows: 1fr;
+    align-items: center;
+  }
+
+  .ajax_fireprotect .protection-container {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 92px 120px;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .protection-image {
+    border-radius: 11px;
+  }
+
+  .ajax_fireprotect .protection-title {
+    font-size: 38px;
+  }
+
+  .ajax_fireprotect .protection-description {
+    font-size: 16px;
+  }
+
+  .ajax_fireprotect .smart-ignoring {
+    padding: 0px 48px 56px 48px;
+    column-gap: 40px;
+    row-gap: 0;
+    align-items: center;
+    grid-template-columns: 480px 353px;
+    grid-template-rows: 1fr;
+  }
+
+  .ajax_fireprotect .smart-ignoring-container {
+    grid-template-rows: 138px 144px;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .smart-ignoring-image {
+    border-radius: 11px;
+  }
+
+  .ajax_fireprotect .smart-ignoring-title {
+    font-size: 38px;
+  }
+
+  .ajax_fireprotect .smart-ignoring-description {
+    font-size: 16px;
+  }
+
+  .ajax_fireprotect .threats {
+    padding: 0px 48px 40px 48px;
+  }
+
+  .ajax_fireprotect .threats-second {
+    padding: 56px 48px;
+  }
+
+  .ajax_fireprotect .threats-title {
+    font-size: 38px;
+    margin-bottom: 16px;
+  }
+
+  .ajax_fireprotect .threats-description {
+    width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  .ajax_fireprotect .threats-image {
+    width: 100%;
+  }
+
+  .ajax_fireprotect .co-concentration {
+    padding: 0px 48px 56px 48px;
+    column-gap: 40px;
+    grid-template-columns: 353px 479px;
+  }
+
+  .ajax_fireprotect .co-concentration-image {
+    border-radius: 11px;
+  }
+
+  .ajax_fireprotect .co-concentration-title {
+    font-size: 38px;
+    margin-bottom: 16px;
+  }
+
+  .ajax_fireprotect .co-concentration-description {
+    font-size: 16px;
+  }
+
+  .ajax_fireprotect .alarm {
+    padding: 0px 48px;
+    column-gap: 48px;
+    grid-template-columns: 1fr 353px;
+  }
+
+  .ajax_fireprotect .alarm-image {
+    border-radius: 11px;
+  }
+
+  .ajax_fireprotect .alarm-title {
+    font-size: 38px;
+  }
+
+  .ajax_fireprotect .alarm-items-description {
+    font-size: 16px;
+  }
+
+  .ajax_fireprotect .smokeless-fire {
+    padding: 56px 48px;
+  }
+
+  .ajax_fireprotect .smokeless-fire-title {
+    font-size: 38px;
+    margin-bottom: 16px;
+  }
+
+  .ajax_fireprotect .smokeless-fire-description {
+    font-size: 16px;
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1366px) {
+  .ajax_fireprotect .hero {
+    padding: 80px 64px;
+    gap: 24px;
+  }
+
+  .ajax_fireprotect .hero-title {
+    font-size: 50px;
+  }
+
+  .ajax_fireprotect .hero-description {
+    font-size: 18px;
+  }
+
+  .ajax_fireprotect .precision {
+    padding: 80px 64px;
+    gap: 24px;
+  }
+
+  .ajax_fireprotect .precision-title {
+    font-size: 50px;
+  }
+
+  .ajax_fireprotect .precision-description {
+    font-size: 18px;
+  }
+
+  .ajax_fireprotect .about {
+    padding: 0px 64px;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 656px;
+  }
+
+  .ajax_fireprotect .about-sensors {
+    grid-template-rows: repeat(2, 205px 435px);
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .about-sensors-devises {
+    padding: 32px;
+    grid-template-columns: 187px 135px;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .about-sensors-devises-title {
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .ajax_fireprotect .about-sensors-devises-image {
+    width: 100%;
+  }
+
+  .ajax_fireprotect .about-sensors-batteries {
+    padding: 32px 16px;
+    grid-template-rows: 54px 1fr;
+  }
+
+  .ajax_fireprotect .about-sensors-batteries-title {
+    font-size: 18px;
+  }
+
+  .ajax_fireprotect .about-sensors-batteries-container {
+    padding: 8px;
+  }
+
+  .ajax_fireprotect .about-sensors-batteries-container-image {
+    width: 64px;
+    margin-bottom: 4px;
+  }
+
+  .ajax_fireprotect .about-sensors-batteries-description {
+    font-size: 18px;
+  }
+
+  .ajax_fireprotect .about-sensors-detector {
+    padding: 32px 16px;
+  }
+
+  .ajax_fireprotect .about-sensors-detector-title {
+    font-size: 18px;
+  }
+
+  .ajax_fireprotect .about-sensors-detector-container-image {
+    width: 64px;
+  }
+
+  .ajax_fireprotect .about-sensors-detector-description {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+
+  .ajax_fireprotect .about-comunication {
+    gap: 16px;
+    grid-template-rows: repeat(3, 208px);
+  }
+
+  .ajax_fireprotect .about-comunication-standarts {
+    padding: 32px;
+    grid-template-columns: 138px 176px;
+    justify-items: start;
+  }
+
+  .ajax_fireprotect .about-comunication-standarts-title {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .ajax_fireprotect .about-comunication-remote {
+    padding: 32px;
+    grid-template-columns: 153px 169px;
+    align-items: center;
+    justify-items: start;
+  }
+
+  .ajax_fireprotect .about-comunication-remote-title {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .ajax_fireprotect .about-comunication-remote-image {
+    width: 100%;
+  }
+
+  .ajax_fireprotect .about-comunication-siren-bg-image {
+    background-image: url(" https://i.citrus.world/uploads/Haber/Ajax/about-comunication-siren-bg-image-1440p.webp");
+  }
+
+  .ajax_fireprotect .about-comunication-siren-title {
+    font-size: 24px;
+    margin-top: 147px;
+  }
+
+  .ajax_fireprotect .about-notification {
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .about-notification-container {
+    padding: 24px 32px;
+    gap: 6px;
+    grid-template-rows: 27px 59px 95px;
+  }
+
+  .ajax_fireprotect .about-notification-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .ajax_fireprotect .about-notification-message {
+    grid-template-columns: 38px 1fr 18px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .ajax_fireprotect .about-notification-message-image {
+    width: 38px;
+  }
+
+  .ajax_fireprotect .about-notification-message-description {
+    grid-column: 2/4;
+    font-size: 12px;
+    width: 280px;
+  }
+
+  .ajax_fireprotect .about-notification-message-uppertitle {
+    font-size: 11px;
+  }
+
+  .ajax_fireprotect .about-notification-jeweller {
+    padding: 27px;
+    gap: 16px;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .ajax_fireprotect .about-notification-jeweller-image {
+    width: 80px;
+  }
+
+  .ajax_fireprotect .about-notification-jeweller-description {
+    font-size: 24px;
+  }
+
+  .ajax_fireprotect .specification {
+    padding: 80px 64px 0px 64px;
+    gap: 16px;
+    grid-template-rows: 292px 292px;
+  }
+
+  .ajax_fireprotect .specification-container {
+    gap: 16px;
+  }
+
+  .ajax_fireprotect .specification-range {
+    padding: 32px;
+  }
+
+  .ajax_fireprotect .specification-range-description {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 24px;
+  }
+
+  .ajax_fireprotect .specification-part-system {
+    padding: 32px;
+  }
+
+  .ajax_fireprotect .specification-part-system-description {
+    font-size: 18px;
+  }
+
+  .ajax_fireprotect .specification-colors {
+    padding: 41px 88px;
+  }
+
+  .ajax_fireprotect .specification-colors-image {
+    width: 100%;
+  }
+
+  .ajax_fireprotect .specification-colors-description {
+    font-size: 18px;
+  }
+
+  .ajax_fireprotect .specification-optical-detector {
+    padding: 0 16px;
+  }
+
+  .ajax_fireprotect .specification-optical-detector-description {
+    font-size: 18px;
+  }
+
+  .ajax_fireprotect .specification-smartbracket {
+    padding: 46px 0;
+  }
+
+  .ajax_fireprotect .specification-smartbracket-description {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .ajax_fireprotect .specification-mounting {
+    padding: 45px 16px;
+    gap: 32px;
+  }
+
+  .ajax_fireprotect .specification-mounting-title {
+    font-size: 18px;
+  }
+
+  .ajax_fireprotect .specification-mounting-list {
+    padding: 0px 10px;
+    gap: 16px;
+    grid-template-columns: 1.1fr 1fr 124px;
+    grid-template-rows: 42px;
+  }
+
+  .ajax_fireprotect .specification-mounting-items {
+    gap: 8px;
+  }
+  .ajax_fireprotect .specification-mounting-items:nth-child(3) {
+    grid-column: 3/4;
+  }
+  .ajax_fireprotect .specification-mounting-items-description {
+    font-size: 14px;
+  }
+
+  .ajax_fireprotect .specification-chamber-description {
+    font-size: 18px;
+  }
+
+  .ajax_fireprotect .monitoring {
+    padding: 80px 64px;
+  }
+
+  .ajax_fireprotect .monitoring-title {
+    font-size: 50px;
+  }
+
+  .ajax_fireprotect .monitoring-bg-description {
+    font-size: 24px;
+  }
+
+  .ajax_fireprotect .monitoring-containers {
+    gap: 12px;
+    grid-template-columns: repeat(3, 402px);
+    grid-template-rows: repeat(2, 252px);
+  }
+
+  .ajax_fireprotect .patented-chamber {
+    padding: 0px 64px 40px 64px;
+    gap: 24px;
+  }
+
+  .ajax_fireprotect .patented-chamber-title {
+    font-size: 50px;
+  }
+
+  .ajax_fireprotect .patented-chamber-description {
+    font-size: 18px;
+  }
+
+  .ajax_fireprotect .protection {
+    padding: 80px 64px;
+    column-gap: 64px;
+    grid-template-columns: 502px 672px;
+  }
+
+  .ajax_fireprotect .protection-container {
+    grid-template-rows: 120px 108px;
+    gap: 24px;
+  }
+
+  .ajax_fireprotect .protection-image {
+    border-radius: 16px;
+  }
+
+  .ajax_fireprotect .protection-title {
+    font-size: 50px;
+  }
+
+  .ajax_fireprotect .protection-description {
+    font-size: 18px;
+  }
+
+  .ajax_fireprotect .smart-ignoring {
+    padding: 0px 64px 80px 64px;
+    column-gap: 48px;
+    grid-template-columns: 672px 502px;
+  }
+
+  .ajax_fireprotect .smart-ignoring-container {
+    grid-template-rows: 180px 135px;
+    gap: 24px;
+  }
+
+  .ajax_fireprotect .smart-ignoring-image {
+    border-radius: 16px;
+  }
+
+  .ajax_fireprotect .smart-ignoring-title {
+    font-size: 50px;
+  }
+
+  .ajax_fireprotect .smart-ignoring-description {
+    font-size: 18px;
+  }
+
+  .ajax_fireprotect .threats {
+    padding: 80px 64px 40px 64px;
+  }
+
+  .ajax_fireprotect .threats-second {
+    padding: 80px 64px;
+  }
+
+  .ajax_fireprotect .threats-title {
+    font-size: 50px;
+    margin-bottom: 16px;
+  }
+
+  .ajax_fireprotect .threats-description {
+    width: 795px;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+
+  .ajax_fireprotect .threats-image {
+    width: 100%;
+  }
+
+  .ajax_fireprotect .co-concentration {
+    padding: 0px 64px 80px 64px;
+    column-gap: 64px;
+    grid-template-columns: 502px 672px;
+  }
+
+  .ajax_fireprotect .co-concentration-image {
+    border-radius: 16px;
+  }
+
+  .ajax_fireprotect .co-concentration-title {
+    font-size: 50px;
+    margin-bottom: 24px;
+    width: 700px;
+  }
+
+  .ajax_fireprotect .co-concentration-description {
+    font-size: 18px;
+  }
+
+  .ajax_fireprotect .alarm {
+    padding: 0px 64px;
+    column-gap: 64px;
+    grid-template-columns: 1fr 502px;
+  }
+
+  .ajax_fireprotect .alarm-image {
+    border-radius: 16px;
+  }
+
+  .ajax_fireprotect .alarm-title {
+    font-size: 50px;
+  }
+
+  .ajax_fireprotect .alarm-items-description {
+    font-size: 18px;
+  }
+
+  .ajax_fireprotect .smokeless-fire {
+    padding: 80px 64px;
+  }
+
+  .ajax_fireprotect .smokeless-fire-title {
+    font-size: 50px;
+    margin-bottom: 24px;
+  }
+
+  .ajax_fireprotect .smokeless-fire-description {
+    font-size: 18px;
+  }
 }
