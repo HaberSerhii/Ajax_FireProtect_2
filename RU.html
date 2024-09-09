@@ -1,0 +1,2797 @@
+<style type="text/css">
+    /* deafult css */
+
+    .product__description.base-padding {
+        padding: 0;
+        border-radius: 0px;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    .ajax_fireprotect .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+    .ajax_fireprotect img {
+        margin: 0;
+        width: 100%;
+    }
+
+    .ajax_fireprotect p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .ajax_fireprotect h3 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .ajax_fireprotect ul {
+        padding: 0;
+    }
+
+    .ajax_fireprotect ul li {
+        padding: 0;
+    }
+
+    .ajax_fireprotect {
+        overflow: hidden;
+    }
+
+    .ajax_fireprotect div {
+        padding: 0;
+        width: initial;
+    }
+
+    .ajax_fireprotect br {
+        display: block;
+    }
+
+    .product__body .el-tabs__header {
+        z-index: 6;
+    }
+
+    /* main css */
+    .ajax_fireprotect {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* hero */
+
+    .ajax_fireprotect .hero {
+        padding: 32px 16px;
+        display: grid;
+        gap: 8px;
+    }
+
+    .ajax_fireprotect .hero-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .hero-description {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .heat-smoke-video {
+        width: 100%;
+    }
+
+    /* precision */
+
+    .ajax_fireprotect .precision {
+        display: grid;
+        gap: 8px;
+        padding: 32px 16px;
+    }
+
+    .ajax_fireprotect .precision-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .precision-description {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    /* about */
+
+    .ajax_fireprotect .about {
+        padding: 0 16px;
+        display: grid;
+        gap: 8px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 437px 417px;
+    }
+
+    .ajax_fireprotect .about-sensors {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 140px 289px);
+        gap: 8px;
+    }
+
+    .ajax_fireprotect .about-sensors-devises {
+        grid-column: 1 / 3;
+        border-radius: 16px;
+        padding: 16px;
+        background: #000;
+        display: grid;
+        justify-items: center;
+        gap: 16px;
+    }
+
+    .ajax_fireprotect .about-sensors-devises-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #f7f7f7;
+    }
+
+    .ajax_fireprotect .about-sensors-devises-image {
+        width: 105px;
+    }
+
+    .ajax_fireprotect .about-sensors-batteries {
+        border-radius: 16px;
+        padding: 16px 8px;
+        background-color: #f7f7f7;
+        display: grid;
+        gap: 16px;
+        justify-items: center;
+    }
+
+    .ajax_fireprotect .about-sensors-batteries-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .about-sensors-batteries-container {
+        border-radius: 16px;
+        padding: 16px 8px;
+        display: grid;
+        justify-items: center;
+        gap: 32px;
+    }
+
+    .about-sensors-batteries-container-item {
+        display: grid;
+        justify-items: center;
+    }
+
+    .ajax_fireprotect .about-sensors-batteries-container-image {
+        width: 40px;
+    }
+
+    .ajax_fireprotect .about-sensors-batteries-description {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .about-sensors-detector {
+        border-radius: 16px;
+        padding: 16px 8px;
+        background-color: #f7f7f7;
+        display: grid;
+        gap: 16px;
+    }
+
+    .ajax_fireprotect .about-sensors-detector-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .about-sensors-detector-container {
+        display: grid;
+        gap: 10px;
+        justify-items: center;
+    }
+
+    .ajax_fireprotect .about-sensors-detector-container-image {
+        width: 40px;
+    }
+
+    .ajax_fireprotect .about-sensors-detector-description {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .about-comunication {
+        display: grid;
+        gap: 8px;
+        grid-template-rows: repeat(3, 140px);
+    }
+
+    .ajax_fireprotect .about-comunication-standarts {
+        border-radius: 16px;
+        padding: 24px 8px;
+        background: #000;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .ajax_fireprotect .about-comunication-standarts-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #f7f7f7;
+    }
+
+    .ajax_fireprotect .about-comunication-standarts-img-container {
+        display: flex;
+        gap: 8px;
+    }
+
+    .ajax_fireprotect .about-comunication-standarts-image {
+        width: 38px;
+    }
+
+    .ajax_fireprotect .about-comunication-remote {
+        border-radius: 16px;
+        padding: 8px;
+        background: #f7f7f7;
+        display: grid;
+        gap: 16px;
+        justify-items: center;
+    }
+
+    .ajax_fireprotect .about-comunication-remote-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .about-comunication-remote-image {
+        width: 100px;
+    }
+
+    .ajax_fireprotect .about-comunication-siren {
+        padding: 0px 8px;
+        height: 140px;
+    }
+
+    .ajax_fireprotect .about-comunication-siren-bg-image {
+        border-radius: 16px;
+        height: 140px;
+        background-image: url(" https://i.citrus.world/uploads/Haber/Ajax/about-comunication-siren-bg-image-360p.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        justify-items: center;
+    }
+
+    .ajax_fireprotect .about-comunication-siren-title {
+        margin-top: 72px;
+        width: 80px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #f7f7f7;
+    }
+
+    .ajax_fireprotect .about-notification {
+        display: grid;
+        grid-column: 1/3;
+        grid-row: 2/3;
+        grid-template-rows: 232px 177px;
+        gap: 8px;
+    }
+
+    .ajax_fireprotect .about-notification-container {
+        border-radius: 16px;
+        padding: 24px 16px;
+        background-color: #f7f7f7;
+        display: grid;
+        align-content: space-between;
+        gap: 6px;
+        grid-template-rows: 18px 58px 86px;
+    }
+
+    .ajax_fireprotect .about-notification-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .about-notification-message {
+        border-radius: 16px;
+        padding: 9px;
+        display: grid;
+        grid-template-columns: 38px 1fr 19px;
+        grid-template-rows: 21px 1fr;
+        column-gap: 10px;
+        align-items: center;
+        background-color: #ededed;
+    }
+
+    .ajax_fireprotect .about-notification-message-image {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        width: 40px;
+    }
+
+    .ajax_fireprotect .about-notification-message-title {
+        width: 150px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 150%;
+        color: #000;
+    }
+
+    .ajax_fireprotect .about-notification-message-description {
+        grid-column: 2/4;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 150%;
+        color: #000;
+    }
+
+    .ajax_fireprotect .about-notification-message-uppertitle {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 150%;
+        text-align: right;
+        color: #919191;
+    }
+
+    .ajax_fireprotect .about-notification-jeweller {
+        border-radius: 16px;
+        padding: 32px;
+        background-color: #f7f7f7;
+        display: grid;
+        gap: 16px;
+        justify-items: center;
+    }
+
+    .ajax_fireprotect .about-notification-jeweller-image {
+        width: 80px;
+    }
+
+    .ajax_fireprotect .about-notification-jeweller-description {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 120%;
+        text-align: center;
+        color: #181818;
+    }
+
+    /* specification */
+
+    .ajax_fireprotect .specification {
+        padding: 32px 16px 0px 16px;
+        display: grid;
+        column-gap: 8px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .ajax_fireprotect .specification-container {
+        display: grid;
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+
+    .ajax_fireprotect .specification-range {
+        border-radius: 16px;
+        padding: 24px 8px;
+        background-color: #f7f7f7;
+    }
+
+    .ajax_fireprotect .specification-range-description {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .specification-part-system {
+        border-radius: 16px;
+        padding: 24px 8px;
+        background-color: #f7f7f7;
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .ajax_fireprotect .specification-part-system-description {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .specification-colors {
+        border-radius: 16px;
+        padding: 32px 8px;
+        background-color: #000;
+        display: grid;
+        justify-items: center;
+        gap: 24px;
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    .ajax_fireprotect .specification-colors-image {
+        width: 100px;
+    }
+
+    .ajax_fireprotect .specification-colors-description {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #f7f7f7;
+    }
+
+    .ajax_fireprotect .specification-optical-detector {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        border-radius: 16px;
+        padding: 8px;
+        height: 105px;
+        background-image: url("https://i.citrus.world/uploads/Haber/Ajax/specification-optical-detector.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+
+    .ajax_fireprotect .specification-optical-detector-description {
+        width: 112px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #f7f7f7;
+    }
+
+    .ajax_fireprotect .specification-smartbracket {
+        padding: 15px;
+        border-radius: 16px;
+        background-color: #000;
+        display: grid;
+        gap: 16px;
+        justify-items: center;
+    }
+
+    .ajax_fireprotect .specification-smartbracket-image {
+        width: 114px;
+    }
+
+    .ajax_fireprotect .specification-smartbracket-description {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #f7f7f7;
+    }
+
+    .ajax_fireprotect .specification-mounting {
+        border-radius: 16px;
+        padding: 16px 8px;
+        display: grid;
+        gap: 16px;
+        background-color: #f7f7f7;
+    }
+
+    .ajax_fireprotect .specification-mounting-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .specification-mounting-list {
+        padding: 0px 16px;
+        display: grid;
+        gap: 16px;
+        list-style-type: none;
+        margin: 0;
+    }
+
+    .ajax_fireprotect .specification-mounting-items {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .ajax_fireprotect .specification-mounting-items-image {
+        width: 34px;
+    }
+
+    .ajax_fireprotect .specification-mounting-items-description {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 150%;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .specification-chamber {
+        display: grid;
+        align-items: end;
+        justify-items: center;
+        border-radius: 16px;
+        padding: 16px 8px;
+        background-image: url("https://i.citrus.world/uploads/Haber/Ajax/specification-chamber.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        grid-row: 4/5;
+        grid-column: 2/3;
+    }
+
+    .ajax_fireprotect .specification-chamber-description {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #f7f7f7;
+    }
+
+    /* monitoring */
+
+    .ajax_fireprotect .monitoring {
+        padding: 32px 16px;
+        display: grid;
+        gap: 24px;
+    }
+
+    .ajax_fireprotect .monitoring-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .monitoring-bg-description {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 120%;
+        color: #fff;
+    }
+
+    .ajax_fireprotect .monitoring-containers {
+        display: grid;
+        gap: 8px;
+        grid-template-columns: repeat(2, 160px);
+        grid-template-rows: repeat(3, 100px);
+        margin: 0 auto;
+    }
+
+    .ajax_fireprotect .monitoring-bg-image-kitchen {
+        background-image: url("https://i.citrus.world/uploads/Haber/Ajax/kitchen.webp");
+        background-position: center;
+        background-size: cover;
+        border-radius: 16px;
+        padding: 8px 16px;
+        display: grid;
+        align-items: end;
+    }
+
+    .ajax_fireprotect .monitoring-bg-image-living-room {
+        background-image: url("https://i.citrus.world/uploads/Haber/Ajax/living-room.webp");
+        background-position: center;
+        background-size: cover;
+        border-radius: 16px;
+        padding: 8px 16px;
+        display: grid;
+        align-items: end;
+    }
+
+    .ajax_fireprotect .monitoring-bg-image-bed-room {
+        background-image: url("https://i.citrus.world/uploads/Haber/Ajax/bed-room.webp");
+        background-position: center;
+        background-size: cover;
+        border-radius: 16px;
+        padding: 8px 16px;
+        display: grid;
+        align-items: end;
+    }
+
+    .ajax_fireprotect .monitoring-bg-image-home-office {
+        background-image: url("https://i.citrus.world/uploads/Haber/Ajax/home-office.webp");
+        background-position: center;
+        background-size: cover;
+        border-radius: 16px;
+        padding: 8px 16px;
+        display: grid;
+        align-items: end;
+    }
+
+    .ajax_fireprotect .monitoring-bg-image-attic {
+        background-image: url("https://i.citrus.world/uploads/Haber/Ajax/attic.webp");
+        background-position: center;
+        background-size: cover;
+        border-radius: 16px;
+        padding: 8px 16px;
+        display: grid;
+        align-items: end;
+    }
+
+    .ajax_fireprotect .monitoring-bg-image-basement {
+        background-image: url("https://i.citrus.world/uploads/Haber/Ajax/basement.webp");
+        background-position: center;
+        background-size: cover;
+        border-radius: 16px;
+        padding: 8px 16px;
+        display: grid;
+        align-items: end;
+    }
+
+    /* patented-chamber  */
+
+    .ajax_fireprotect .patented-chamber {
+        padding: 32px 16px;
+        display: grid;
+        gap: 8px;
+    }
+
+    .ajax_fireprotect .patented-chamber-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .patented-chamber-description {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .about-video {
+        width: 100%;
+    }
+
+    /* protection */
+
+    .ajax_fireprotect .protection {
+        padding: 32px 16px;
+        display: grid;
+        gap: 16px;
+    }
+
+    .ajax_fireprotect .protection-container {
+        display: grid;
+        gap: 8px;
+    }
+
+    .ajax_fireprotect .protection-image {
+        border-radius: 10px;
+    }
+
+    .ajax_fireprotect .protection-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .protection-description {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    /* smart-ignoring */
+
+    .ajax_fireprotect .smart-ignoring {
+        padding: 0px 16px 32px 16px;
+        display: grid;
+        gap: 16px;
+    }
+
+    .ajax_fireprotect .smart-ignoring-container {
+        display: grid;
+        gap: 8px;
+    }
+
+    .ajax_fireprotect .smart-ignoring-image {
+        border-radius: 10px;
+    }
+
+    .ajax_fireprotect .smart-ignoring-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .smart-ignoring-description {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    /* threats */
+
+    .ajax_fireprotect .threats {
+        padding: 0px 16px 24px 16px;
+    }
+
+    .ajax_fireprotect .threats-second {
+        padding: 32px 16px;
+    }
+
+    .ajax_fireprotect .threats-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #181818;
+        margin-bottom: 8px;
+    }
+
+    .ajax_fireprotect .threats-description {
+        margin: 0 auto;
+        width: 325px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    .ajax_fireprotect .threats-image {
+        width: 100%;
+    }
+
+    /* co-concentration */
+
+    .ajax_fireprotect .co-concentration {
+        padding: 0px 16px 32px 16px;
+    }
+
+    .ajax_fireprotect .co-concentration-image {
+        border-radius: 10px;
+        margin-bottom: 16px;
+    }
+
+    .ajax_fireprotect .co-concentration-description-container {
+        list-style-type: none;
+        margin: 0;
+    }
+
+    .ajax_fireprotect .co-concentration-description-container-items {
+        position: relative;
+    }
+
+    .ajax_fireprotect .co-concentration-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #181818;
+        margin-bottom: 8px;
+    }
+
+    .ajax_fireprotect .co-concentration-description {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    /* alarm */
+
+    .ajax_fireprotect .alarm {
+        padding: 0px 16px;
+    }
+
+    .ajax_fireprotect .alarm-image {
+        border-radius: 10px;
+        margin-bottom: 16px;
+    }
+
+    .ajax_fireprotect .alarm-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #181818;
+        margin-bottom: 8px;
+    }
+
+    .ajax_fireprotect .alarm-list {
+        margin: 0;
+    }
+
+    .ajax_fireprotect .alarm-items {
+        list-style-type: none;
+        position: relative;
+        margin-left: 20px;
+    }
+
+    .ajax_fireprotect .alarm-items:first-child:before {
+        content: none;
+        margin-left: 0;
+    }
+
+    .ajax_fireprotect .alarm-items::before {
+        content: "•";
+        position: absolute;
+        left: 8px;
+        top: 0px;
+    }
+
+    .ajax_fireprotect .alarm-items-description {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #181818;
+        text-align: center;
+    }
+
+    /* smokeless-fire */
+
+    .ajax_fireprotect .smokeless-fire {
+        padding: 32px 16px;
+    }
+
+    .ajax_fireprotect .smokeless-fire-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #181818;
+        margin-bottom: 8px;
+    }
+
+    .ajax_fireprotect .smokeless-fire-description {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        color: #181818;
+    }
+
+    @media (min-width: 768px) {
+        .ajax_fireprotect .hero {
+            padding: 48px 40px;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .hero-title {
+            font-size: 28px;
+        }
+
+        .ajax_fireprotect .hero-description {
+            font-size: 14px;
+        }
+
+        .ajax_fireprotect .precision {
+            padding: 48px 40px;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .precision-title {
+            font-size: 28px;
+        }
+
+        .ajax_fireprotect .precision-description {
+            font-size: 14px;
+        }
+
+        .ajax_fireprotect .about {
+            padding: 0 40px;
+            gap: 8px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 499px;
+        }
+
+        .ajax_fireprotect .about-sensors {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 161px 330px);
+            gap: 8px;
+        }
+
+        .ajax_fireprotect .about-sensors-devises {
+            grid-column: 1 / 3;
+            border-radius: 16px;
+            padding: 24px 16px;
+            justify-items: center;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .about-sensors-devises-title {
+            font-size: 12px;
+            width: 116px;
+        }
+
+        .ajax_fireprotect .about-sensors-devises-image {
+            width: 116px;
+        }
+
+        .ajax_fireprotect .about-sensors-batteries {
+            border-radius: 16px;
+            padding: 24px 0;
+            gap: 32px;
+            justify-items: center;
+            grid-template-rows: 36px 1fr;
+            align-items: start;
+        }
+
+        .ajax_fireprotect .about-sensors-batteries-title {
+            font-size: 12px;
+        }
+
+        .ajax_fireprotect .about-sensors-batteries-container {
+            border-radius: 16px;
+            padding: 0;
+            gap: 32px;
+        }
+
+        .about-sensors-batteries-container-item {
+            justify-items: center;
+        }
+
+        .ajax_fireprotect .about-sensors-batteries-container-image {
+            width: 40px;
+        }
+
+        .ajax_fireprotect .about-sensors-batteries-description {
+            font-size: 10px;
+        }
+
+        .ajax_fireprotect .about-sensors-detector {
+            border-radius: 16px;
+            padding: 24px 16px;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .about-sensors-detector-title {
+            font-size: 12px;
+        }
+
+        .ajax_fireprotect .about-sensors-detector-container {
+            display: grid;
+            gap: 8px;
+            justify-items: center;
+        }
+
+        .ajax_fireprotect .about-sensors-detector-container-image {
+            width: 40px;
+        }
+
+        .ajax_fireprotect .about-sensors-detector-description {
+            font-size: 10px;
+            margin-bottom: 8px;
+        }
+
+        .ajax_fireprotect .about-comunication {
+            gap: 8px;
+            grid-template-rows: repeat(3, 161px);
+        }
+
+        .ajax_fireprotect .about-comunication-standarts {
+            border-radius: 16px;
+            padding: 24px 32px;
+            gap: 24px;
+        }
+
+        .ajax_fireprotect .about-comunication-standarts-title {
+            font-size: 12px;
+        }
+
+        .ajax_fireprotect .about-comunication-standarts-img-container {
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .about-comunication-standarts-image {
+            width: 40px;
+        }
+
+        .ajax_fireprotect .about-comunication-remote {
+            border-radius: 16px;
+            padding: 14px 32px;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .about-comunication-remote-title {
+            font-size: 12px;
+        }
+
+        .ajax_fireprotect .about-comunication-remote-image {
+            width: 130px;
+        }
+
+        .ajax_fireprotect .about-comunication-siren {
+            padding: 0px;
+            height: 100%;
+        }
+
+        .ajax_fireprotect .about-comunication-siren-bg-image {
+            border-radius: 16px;
+            height: 100%;
+            background-image: url(" https://i.citrus.world/uploads/Haber/Ajax/about-comunication-siren-bg-image-768p.webp");
+        }
+
+        .ajax_fireprotect .about-comunication-siren-title {
+            margin-top: 111px;
+            width: 100%;
+        }
+
+        .ajax_fireprotect .about-notification {
+            display: grid;
+            grid-column: 3/4;
+            grid-row: 1/2;
+            grid-template-rows: 1fr 1fr;
+            gap: 8px;
+        }
+
+        .ajax_fireprotect .about-notification-container {
+            border-radius: 16px;
+            padding: 12px 8px;
+            align-content: space-between;
+            gap: 6px;
+            grid-template-rows: 36px 71px 101px;
+        }
+
+        .ajax_fireprotect .about-notification-title {
+            font-size: 12px;
+        }
+
+        .ajax_fireprotect .about-notification-message {
+            border-radius: 16px;
+            padding: 9px;
+            grid-template-columns: 38px 95px 15px;
+            grid-template-rows: 21px 1fr;
+            column-gap: 10px;
+            align-items: center;
+            background-color: #ededed;
+        }
+
+        .ajax_fireprotect .about-notification-message-image {
+            grid-column: 1/2;
+            grid-row: 1/3;
+            width: 38px;
+        }
+
+        .ajax_fireprotect .about-notification-message-title {
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .ajax_fireprotect .about-notification-message-description {
+            grid-column: 2/4;
+            font-size: 10px;
+        }
+
+        .ajax_fireprotect .about-notification-message-uppertitle {
+            font-size: 10px;
+        }
+
+        .ajax_fireprotect .about-notification-jeweller {
+            border-radius: 16px;
+            padding: 32px 8px;
+            gap: 16px;
+            align-content: center;
+        }
+
+        .ajax_fireprotect .about-notification-jeweller-image {
+            width: 64px;
+        }
+
+        .ajax_fireprotect .about-notification-jeweller-description {
+            font-size: 14px;
+        }
+
+        .ajax_fireprotect .specification {
+            padding: 48px 40px 0px 40px;
+            display: grid;
+            gap: 8px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 193px 193px;
+        }
+
+        .ajax_fireprotect .specification-container {
+            display: grid;
+            gap: 8px;
+            margin-bottom: 0px;
+            grid-column: 1/2;
+            grid-row: 1/3;
+        }
+
+        .ajax_fireprotect .grid-position {
+            grid-column: 2/3;
+            grid-row: 1/3;
+        }
+
+        .ajax_fireprotect .specification-range {
+            border-radius: 16px;
+            padding: 24px 32px;
+        }
+
+        .ajax_fireprotect .specification-range-description {
+            font-size: 14px;
+        }
+
+        .ajax_fireprotect .specification-part-system {
+            border-radius: 16px;
+            padding: 24px 32px;
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+
+        .ajax_fireprotect .specification-part-system-description {
+            font-size: 12px;
+        }
+
+        .ajax_fireprotect .specification-colors {
+            border-radius: 16px;
+            padding: 17px 37px;
+            justify-items: center;
+            gap: 24px;
+            grid-row: 3/4;
+            grid-column: 1/2;
+        }
+
+        .ajax_fireprotect .specification-colors-image {
+            width: 135px;
+        }
+
+        .ajax_fireprotect .specification-colors-description {
+            font-size: 12px;
+        }
+
+        .ajax_fireprotect .specification-optical-detector {
+            align-content: space-between;
+            border-radius: 16px;
+            padding: 0;
+            height: 100%;
+            grid-column: 3/4;
+            grid-row: 1/2;
+        }
+
+        .ajax_fireprotect .specification-optical-detector-description {
+            margin-top: 32px;
+            width: 160px;
+            font-size: 12px;
+        }
+
+        .ajax_fireprotect .specification-smartbracket {
+            padding: 18px;
+            border-radius: 16px;
+            gap: 16px;
+            justify-items: center;
+        }
+
+        .ajax_fireprotect .specification-smartbracket-image {
+            width: 100%;
+        }
+
+        .ajax_fireprotect .specification-smartbracket-description {
+            font-size: 12px;
+            width: 160px;
+        }
+
+        .ajax_fireprotect .specification-mounting {
+            border-radius: 16px;
+            padding: 24px 0px;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .specification-mounting-title {
+            font-size: 12px;
+        }
+
+        .ajax_fireprotect .specification-mounting-list {
+            padding: 0px 16px;
+            gap: 16px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        .ajax_fireprotect .specification-mounting-items:nth-child(3) {
+            grid-column: 1/3;
+            justify-content: center;
+        }
+
+        .ajax_fireprotect .specification-mounting-items {
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .ajax_fireprotect .specification-mounting-items-image {
+            width: 40px;
+        }
+
+        .ajax_fireprotect .specification-mounting-items-description {
+            font-size: 10px;
+        }
+
+        .ajax_fireprotect .specification-chamber {
+            border-radius: 16px;
+            padding: 0px 32px;
+            height: 100%;
+            grid-column: 3/4;
+            grid-row: 2/3;
+        }
+
+        .ajax_fireprotect .specification-chamber-description {
+            font-size: 12px;
+            margin-bottom: 32px;
+        }
+
+        .ajax_fireprotect .monitoring {
+            padding: 48px 40px;
+            gap: 24px;
+        }
+
+        .ajax_fireprotect .monitoring-title {
+            font-size: 28px;
+        }
+
+        .ajax_fireprotect .monitoring-bg-description {
+            font-size: 14px;
+        }
+
+        .ajax_fireprotect .monitoring-containers {
+            display: grid;
+            gap: 8px;
+            grid-template-columns: repeat(3, 208px);
+            grid-template-rows: repeat(2, 130px);
+        }
+
+        .ajax_fireprotect .monitoring-bg-image-kitchen {
+            border-radius: 16px;
+            padding: 16px;
+        }
+
+        .ajax_fireprotect .monitoring-bg-image-living-room {
+            border-radius: 16px;
+            padding: 16px;
+        }
+
+        .ajax_fireprotect .monitoring-bg-image-bed-room {
+            border-radius: 16px;
+            padding: 16px;
+        }
+
+        .ajax_fireprotect .monitoring-bg-image-home-office {
+            border-radius: 16px;
+            padding: 16px;
+        }
+
+        .ajax_fireprotect .monitoring-bg-image-attic {
+            border-radius: 16px;
+            padding: 16px;
+        }
+
+        .ajax_fireprotect .monitoring-bg-image-basement {
+            border-radius: 16px;
+            padding: 16px;
+        }
+
+        .ajax_fireprotect .patented-chamber {
+            padding: 0px 40px 32px 40px;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .patented-chamber-title {
+            font-size: 28px;
+        }
+
+        .ajax_fireprotect .patented-chamber-description {
+            font-size: 14px;
+        }
+
+        .ajax_fireprotect .protection {
+            padding: 48px 40px;
+            display: grid;
+            column-gap: 40px;
+            row-gap: 0;
+            grid-template-columns: 253px 347px;
+        }
+
+        .ajax_fireprotect .protection-container {
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .protection-image {
+            border-radius: 8px;
+            margin-bottom: 0px;
+            grid-row: 1/3;
+            grid-column: 1/2;
+        }
+
+        .ajax_fireprotect .protection-title {
+            font-size: 28px;
+            margin-bottom: 0px;
+            text-align: left;
+        }
+
+        .ajax_fireprotect .protection-description {
+            font-size: 16px;
+            text-align: left;
+        }
+
+        .ajax_fireprotect .smart-ignoring {
+            padding: 48px 40px;
+            align-items: center;
+            column-gap: 40px;
+            row-gap: 16px;
+            grid-template-columns: 347px 253px;
+        }
+
+        .ajax_fireprotect .smart-ignoring-container {
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .smart-ignoring-image {
+            border-radius: 10px;
+            margin-bottom: 0px;
+            grid-row: 1/3;
+            grid-column: 2/3;
+        }
+
+        .ajax_fireprotect .smart-ignoring-title {
+            font-size: 28px;
+            text-align: left;
+            margin-bottom: 0px;
+        }
+
+        .ajax_fireprotect .smart-ignoring-description {
+            font-size: 16px;
+            text-align: left;
+        }
+
+        .ajax_fireprotect .threats {
+            padding: 0px 40px 32px 40px;
+        }
+
+        .ajax_fireprotect .threats-second {
+            padding: 48px 40px;
+        }
+
+        .ajax_fireprotect .threats-title {
+            font-size: 28px;
+            margin-bottom: 16px;
+        }
+
+        .ajax_fireprotect .threats-description {
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .ajax_fireprotect .threats-image {
+            width: 100%;
+        }
+
+        .ajax_fireprotect .co-concentration {
+            padding: 0px 40px 48px 40px;
+            display: grid;
+            align-items: center;
+            column-gap: 40px;
+            grid-template-columns: 253px 347px;
+        }
+
+        .ajax_fireprotect .co-concentration-image {
+            border-radius: 8px;
+            margin-bottom: 0px;
+            grid-column: 1/2;
+        }
+
+        .ajax_fireprotect .co-concentration-title {
+            font-size: 28px;
+            text-align: left;
+            margin-bottom: 16px;
+        }
+
+        .ajax_fireprotect .co-concentration-description-container {
+            grid-column: 2/3;
+        }
+
+        .ajax_fireprotect .co-concentration-description-container-items:first-child::before {
+            content: none;
+        }
+
+        .ajax_fireprotect .co-concentration-description {
+            font-size: 16px;
+            text-align: left;
+            margin-left: 25px;
+        }
+
+        .ajax_fireprotect .co-concentration-description-container-items:before {
+            content: "•";
+            position: absolute;
+            left: 8px;
+            top: 0px;
+        }
+
+        .ajax_fireprotect .alarm {
+            padding: 0px 40px;
+            display: grid;
+            align-items: center;
+            column-gap: 40px;
+            grid-template-columns: 1fr 253px;
+        }
+
+        .ajax_fireprotect .alarm-image {
+            border-radius: 10px;
+            margin-bottom: 0px;
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+
+        .ajax_fireprotect .alarm-title {
+            font-size: 28px;
+            text-align: left;
+            margin-bottom: 16px;
+        }
+
+        .ajax_fireprotect .alarm-items {
+            margin-left: 0;
+        }
+
+        .ajax_fireprotect .alarm-items::before {
+            content: "•";
+            position: absolute;
+            left: 8px;
+            top: 0px;
+        }
+
+        .ajax_fireprotect .alarm-items-description {
+            font-size: 16px;
+            margin-left: 25px;
+            text-align: left;
+        }
+
+        .ajax_fireprotect .smokeless-fire {
+            padding: 48px 40px;
+        }
+
+        .ajax_fireprotect .smokeless-fire-title {
+            font-size: 28px;
+            margin-bottom: 16px;
+        }
+
+        .ajax_fireprotect .smokeless-fire-description {
+            font-size: 14px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .ajax_fireprotect .hero {
+            padding: 56px 48px;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .hero-title {
+            font-size: 38px;
+        }
+
+        .ajax_fireprotect .hero-description {
+            font-size: 16px;
+        }
+
+        .ajax_fireprotect .precision {
+            padding: 56px 48px;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .precision-title {
+            font-size: 38px;
+        }
+
+        .ajax_fireprotect .precision-description {
+            width: 800px;
+            font-size: 16px;
+            margin: 0 auto;
+        }
+
+        .ajax_fireprotect .about {
+            padding: 0 48px;
+            gap: 12px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 547px;
+        }
+
+        .ajax_fireprotect .about-sensors {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 175px 360px);
+            gap: 12px;
+        }
+
+        .ajax_fireprotect .about-sensors-devises {
+            padding: 22px;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .about-sensors-devises-title {
+            font-size: 16px;
+            width: 146px;
+        }
+
+        .ajax_fireprotect .about-sensors-devises-image {
+            width: 124px;
+        }
+
+        .ajax_fireprotect .about-sensors-batteries {
+            padding: 24px 10px;
+            gap: 32px;
+            grid-template-rows: 36px 1fr;
+            align-items: start;
+        }
+
+        .ajax_fireprotect .about-sensors-batteries-title {
+            font-size: 16px;
+        }
+
+        .ajax_fireprotect .about-sensors-batteries-container {
+            gap: 32px;
+            padding: 8px;
+        }
+
+        .ajax_fireprotect .about-sensors-batteries-container-image {
+            width: 40px;
+            margin-bottom: 4px;
+        }
+
+        .ajax_fireprotect .about-sensors-batteries-description {
+            font-size: 16px;
+        }
+
+        .ajax_fireprotect .about-sensors-detector {
+            padding: 24px 16px;
+            gap: 32px;
+        }
+
+        .ajax_fireprotect .about-sensors-detector-title {
+            font-size: 16px;
+        }
+
+        .ajax_fireprotect .about-sensors-detector-container {
+            gap: 8px;
+        }
+
+        .ajax_fireprotect .about-sensors-detector-container-image {
+            width: 40px;
+        }
+
+        .ajax_fireprotect .about-sensors-detector-description {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .ajax_fireprotect .about-comunication {
+            gap: 12px;
+            grid-template-rows: repeat(3, 174px);
+        }
+
+        .ajax_fireprotect .about-comunication-standarts {
+            padding: 24px 32px;
+            gap: 24px;
+        }
+
+        .ajax_fireprotect .about-comunication-standarts-title {
+            font-size: 16px;
+        }
+
+        .ajax_fireprotect .about-comunication-standarts-img-container {
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .about-comunication-standarts-image {
+            width: 48px;
+        }
+
+        .ajax_fireprotect .about-comunication-remote {
+            padding: 14px 32px;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .about-comunication-remote-title {
+            font-size: 16px;
+        }
+
+        .ajax_fireprotect .about-comunication-remote-image {
+            width: 134px;
+        }
+
+        .ajax_fireprotect .about-comunication-siren {
+            padding: 0px;
+            height: 100%;
+        }
+
+        .ajax_fireprotect .about-comunication-siren-bg-image {
+            border-radius: 16px;
+            height: 100%;
+            background-image: url(" https://i.citrus.world/uploads/Haber/Ajax/about-comunication-siren-bg-image-1024p.webp");
+        }
+
+        .ajax_fireprotect .about-comunication-siren-title {
+            font-size: 16px;
+            margin-top: 118px;
+            width: 100%;
+        }
+
+        .ajax_fireprotect .about-notification {
+            gap: 8px;
+        }
+
+        .ajax_fireprotect .about-notification-container {
+            padding: 8px 16px;
+            align-content: center;
+            gap: 6px;
+            grid-template-rows: 48px 77px 113px;
+        }
+
+        .ajax_fireprotect .about-notification-title {
+            font-size: 16px;
+        }
+
+        .ajax_fireprotect .about-notification-message {
+            border-radius: 16px;
+            padding: 10px;
+            grid-template-columns: 38px 1fr 18px;
+            grid-template-rows: 21px 1fr;
+            column-gap: 10px;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .ajax_fireprotect .about-notification-message-image {
+            grid-column: 1/2;
+            grid-row: 1/3;
+            width: 40px;
+        }
+
+        .ajax_fireprotect .about-notification-message-title {
+            width: 150px;
+            font-size: 13px;
+        }
+
+        .ajax_fireprotect .about-notification-message-description {
+            grid-column: 2/4;
+            font-size: 11px;
+            width: 170px;
+        }
+
+        .ajax_fireprotect .about-notification-message-uppertitle {
+            font-size: 11px;
+        }
+
+        .ajax_fireprotect .about-notification-jeweller {
+            padding: 32px;
+            gap: 25px;
+            align-content: center;
+        }
+
+        .ajax_fireprotect .about-notification-jeweller-image {
+            width: 64px;
+        }
+
+        .ajax_fireprotect .about-notification-jeweller-description {
+            font-size: 20px;
+        }
+
+        .ajax_fireprotect .specification {
+            padding: 56px 48px 0px 48px;
+            gap: 12px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 232px 232px;
+        }
+
+        .ajax_fireprotect .specification-container {
+            gap: 12px;
+        }
+
+        .ajax_fireprotect .specification-range {
+            padding: 24px 32px;
+        }
+
+        .ajax_fireprotect .specification-range-description {
+            font-size: 20px;
+        }
+
+        .ajax_fireprotect .specification-part-system {
+            border-radius: 16px;
+            padding: 24px 32px;
+        }
+
+        .ajax_fireprotect .specification-part-system-description {
+            font-size: 16px;
+        }
+
+        .ajax_fireprotect .specification-colors {
+            border-radius: 16px;
+            padding: 27px 52px;
+            gap: 24px;
+        }
+
+        .ajax_fireprotect .specification-colors-image {
+            width: 100%;
+        }
+
+        .ajax_fireprotect .specification-colors-description {
+            font-size: 16px;
+        }
+
+        .ajax_fireprotect .specification-optical-detector {
+            padding: 0 16px;
+            height: 100%;
+        }
+
+        .ajax_fireprotect .specification-optical-detector-description {
+            margin-top: 32px;
+            width: 230px;
+            font-size: 16px;
+        }
+
+        .ajax_fireprotect .specification-smartbracket {
+            padding: 26px 30px;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .specification-smartbracket-image {
+            width: 100%;
+        }
+
+        .ajax_fireprotect .specification-smartbracket-description {
+            font-size: 16px;
+            width: 180px;
+        }
+
+        .ajax_fireprotect .specification-mounting {
+            padding: 24px 16px;
+            gap: 24px;
+        }
+
+        .ajax_fireprotect .specification-mounting-title {
+            font-size: 16px;
+        }
+
+        .ajax_fireprotect .specification-mounting-list {
+            padding: 0px 30px;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .specification-mounting-items {
+            gap: 8px;
+        }
+
+        .ajax_fireprotect .specification-mounting-items-image {
+            width: 40px;
+        }
+
+        .ajax_fireprotect .specification-mounting-items-description {
+            font-size: 12px;
+        }
+
+        .ajax_fireprotect .specification-chamber {
+            padding: 0px 32px;
+        }
+
+        .ajax_fireprotect .specification-chamber-description {
+            font-size: 16px;
+            margin-bottom: 32px;
+        }
+
+        .ajax_fireprotect .monitoring {
+            padding: 56px 48px;
+            gap: 24px;
+        }
+
+        .ajax_fireprotect .monitoring-title {
+            font-size: 38px;
+        }
+
+        .ajax_fireprotect .monitoring-bg-description {
+            font-size: 20px;
+        }
+
+        .ajax_fireprotect .monitoring-containers {
+            gap: 12px;
+            grid-template-columns: repeat(3, 285px);
+            grid-template-rows: repeat(2, 177px);
+        }
+
+        .ajax_fireprotect .monitoring-bg-image-kitchen {
+            padding: 24px;
+        }
+
+        .ajax_fireprotect .monitoring-bg-image-living-room {
+            padding: 24px;
+        }
+
+        .ajax_fireprotect .monitoring-bg-image-bed-room {
+            padding: 24px;
+        }
+
+        .ajax_fireprotect .monitoring-bg-image-home-office {
+            padding: 24px;
+        }
+
+        .ajax_fireprotect .monitoring-bg-image-attic {
+            padding: 24px;
+        }
+
+        .ajax_fireprotect .monitoring-bg-image-basement {
+            padding: 24px;
+        }
+
+        .ajax_fireprotect .patented-chamber {
+            padding: 0px 48px 40px 48px;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .patented-chamber-title {
+            font-size: 38px;
+        }
+
+        .ajax_fireprotect .patented-chamber-description {
+            font-size: 16px;
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        .ajax_fireprotect .protection {
+            padding: 56px 48px;
+            column-gap: 48px;
+            grid-template-columns: 353px 480px;
+            grid-template-rows: 1fr;
+            align-items: center;
+        }
+
+        .ajax_fireprotect .protection-container {
+            display: grid;
+            align-items: center;
+            grid-template-rows: 92px 120px;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .protection-image {
+            border-radius: 11px;
+        }
+
+        .ajax_fireprotect .protection-title {
+            font-size: 38px;
+        }
+
+        .ajax_fireprotect .protection-description {
+            font-size: 16px;
+        }
+
+        .ajax_fireprotect .smart-ignoring {
+            padding: 0px 48px 56px 48px;
+            column-gap: 40px;
+            row-gap: 0;
+            align-items: center;
+            grid-template-columns: 480px 353px;
+            grid-template-rows: 1fr;
+        }
+
+        .ajax_fireprotect .smart-ignoring-container {
+            grid-template-rows: 138px 144px;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .smart-ignoring-image {
+            border-radius: 11px;
+        }
+
+        .ajax_fireprotect .smart-ignoring-title {
+            font-size: 38px;
+        }
+
+        .ajax_fireprotect .smart-ignoring-description {
+            font-size: 16px;
+        }
+
+        .ajax_fireprotect .threats {
+            padding: 0px 48px 40px 48px;
+        }
+
+        .ajax_fireprotect .threats-second {
+            padding: 56px 48px;
+        }
+
+        .ajax_fireprotect .threats-title {
+            font-size: 38px;
+            margin-bottom: 16px;
+        }
+
+        .ajax_fireprotect .threats-description {
+            width: 800px;
+            margin: 0 auto;
+            font-size: 16px;
+        }
+
+        .ajax_fireprotect .threats-image {
+            width: 100%;
+        }
+
+        .ajax_fireprotect .co-concentration {
+            padding: 0px 48px 56px 48px;
+            column-gap: 40px;
+            grid-template-columns: 353px 479px;
+        }
+
+        .ajax_fireprotect .co-concentration-image {
+            border-radius: 11px;
+        }
+
+        .ajax_fireprotect .co-concentration-title {
+            font-size: 38px;
+            margin-bottom: 16px;
+        }
+
+        .ajax_fireprotect .co-concentration-description {
+            font-size: 16px;
+        }
+
+        .ajax_fireprotect .alarm {
+            padding: 0px 48px;
+            column-gap: 48px;
+            grid-template-columns: 1fr 353px;
+        }
+
+        .ajax_fireprotect .alarm-image {
+            border-radius: 11px;
+        }
+
+        .ajax_fireprotect .alarm-title {
+            font-size: 38px;
+        }
+
+        .ajax_fireprotect .alarm-items-description {
+            font-size: 16px;
+        }
+
+        .ajax_fireprotect .smokeless-fire {
+            padding: 56px 48px;
+        }
+
+        .ajax_fireprotect .smokeless-fire-title {
+            font-size: 38px;
+            margin-bottom: 16px;
+        }
+
+        .ajax_fireprotect .smokeless-fire-description {
+            font-size: 16px;
+            width: 800px;
+            margin: 0 auto;
+        }
+    }
+
+    @media (min-width: 1366px) {
+        .ajax_fireprotect .hero {
+            padding: 80px 64px;
+            gap: 24px;
+        }
+
+        .ajax_fireprotect .hero-title {
+            font-size: 50px;
+        }
+
+        .ajax_fireprotect .hero-description {
+            font-size: 18px;
+        }
+
+        .ajax_fireprotect .precision {
+            padding: 80px 64px;
+            gap: 24px;
+        }
+
+        .ajax_fireprotect .precision-title {
+            font-size: 50px;
+        }
+
+        .ajax_fireprotect .precision-description {
+            font-size: 18px;
+        }
+
+        .ajax_fireprotect .about {
+            padding: 0px 64px;
+            gap: 16px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 656px;
+        }
+
+        .ajax_fireprotect .about-sensors {
+            grid-template-rows: repeat(2, 205px 435px);
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .about-sensors-devises {
+            padding: 32px;
+            grid-template-columns: 187px 135px;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .about-sensors-devises-title {
+            font-size: 18px;
+            width: 100%;
+            text-align: left;
+        }
+
+        .ajax_fireprotect .about-sensors-devises-image {
+            width: 100%;
+        }
+
+        .ajax_fireprotect .about-sensors-batteries {
+            padding: 32px 16px;
+            grid-template-rows: 54px 1fr;
+        }
+
+        .ajax_fireprotect .about-sensors-batteries-title {
+            font-size: 18px;
+        }
+
+        .ajax_fireprotect .about-sensors-batteries-container {
+            padding: 8px;
+        }
+
+        .ajax_fireprotect .about-sensors-batteries-container-image {
+            width: 64px;
+            margin-bottom: 4px;
+        }
+
+        .ajax_fireprotect .about-sensors-batteries-description {
+            font-size: 18px;
+        }
+
+        .ajax_fireprotect .about-sensors-detector {
+            padding: 32px 16px;
+        }
+
+        .ajax_fireprotect .about-sensors-detector-title {
+            font-size: 18px;
+        }
+
+        .ajax_fireprotect .about-sensors-detector-container-image {
+            width: 64px;
+        }
+
+        .ajax_fireprotect .about-sensors-detector-description {
+            font-size: 18px;
+            margin-bottom: 0px;
+        }
+
+        .ajax_fireprotect .about-comunication {
+            gap: 16px;
+            grid-template-rows: repeat(3, 208px);
+        }
+
+        .ajax_fireprotect .about-comunication-standarts {
+            padding: 32px;
+            grid-template-columns: 138px 176px;
+            justify-items: start;
+        }
+
+        .ajax_fireprotect .about-comunication-standarts-title {
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .ajax_fireprotect .about-comunication-remote {
+            padding: 32px;
+            grid-template-columns: 153px 169px;
+            align-items: center;
+            justify-items: start;
+        }
+
+        .ajax_fireprotect .about-comunication-remote-title {
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .ajax_fireprotect .about-comunication-remote-image {
+            width: 100%;
+        }
+
+        .ajax_fireprotect .about-comunication-siren-bg-image {
+            background-image: url(" https://i.citrus.world/uploads/Haber/Ajax/about-comunication-siren-bg-image-1440p.webp");
+        }
+
+        .ajax_fireprotect .about-comunication-siren-title {
+            font-size: 24px;
+            margin-top: 147px;
+        }
+
+        .ajax_fireprotect .about-notification {
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .about-notification-container {
+            padding: 24px 32px;
+            gap: 6px;
+            grid-template-rows: 27px 59px 95px;
+        }
+
+        .ajax_fireprotect .about-notification-title {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .ajax_fireprotect .about-notification-message {
+            grid-template-columns: 38px 1fr 18px;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .ajax_fireprotect .about-notification-message-image {
+            width: 38px;
+        }
+
+        .ajax_fireprotect .about-notification-message-description {
+            grid-column: 2/4;
+            font-size: 12px;
+            width: 280px;
+        }
+
+        .ajax_fireprotect .about-notification-message-uppertitle {
+            font-size: 11px;
+        }
+
+        .ajax_fireprotect .about-notification-jeweller {
+            padding: 27px;
+            gap: 16px;
+            align-content: center;
+            justify-content: center;
+        }
+
+        .ajax_fireprotect .about-notification-jeweller-image {
+            width: 80px;
+        }
+
+        .ajax_fireprotect .about-notification-jeweller-description {
+            font-size: 24px;
+        }
+
+        .ajax_fireprotect .specification {
+            padding: 80px 64px 0px 64px;
+            gap: 16px;
+            grid-template-rows: 292px 292px;
+        }
+
+        .ajax_fireprotect .specification-container {
+            gap: 16px;
+        }
+
+        .ajax_fireprotect .specification-range {
+            padding: 32px;
+        }
+
+        .ajax_fireprotect .specification-range-description {
+            width: 300px;
+            margin: 0 auto;
+            font-size: 24px;
+        }
+
+        .ajax_fireprotect .specification-part-system {
+            padding: 32px;
+        }
+
+        .ajax_fireprotect .specification-part-system-description {
+            font-size: 18px;
+        }
+
+        .ajax_fireprotect .specification-colors {
+            padding: 41px 88px;
+        }
+
+        .ajax_fireprotect .specification-colors-image {
+            width: 100%;
+        }
+
+        .ajax_fireprotect .specification-colors-description {
+            font-size: 18px;
+        }
+
+        .ajax_fireprotect .specification-optical-detector {
+            padding: 0 16px;
+        }
+
+        .ajax_fireprotect .specification-optical-detector-description {
+            font-size: 18px;
+        }
+
+        .ajax_fireprotect .specification-smartbracket {
+            padding: 46px 0;
+        }
+
+        .ajax_fireprotect .specification-smartbracket-description {
+            font-size: 18px;
+            width: 100%;
+        }
+
+        .ajax_fireprotect .specification-mounting {
+            padding: 45px 16px;
+            gap: 32px;
+        }
+
+        .ajax_fireprotect .specification-mounting-title {
+            font-size: 18px;
+        }
+
+        .ajax_fireprotect .specification-mounting-list {
+            padding: 0px 10px;
+            gap: 16px;
+            grid-template-columns: 1.1fr 1fr 124px;
+            grid-template-rows: 42px;
+        }
+
+        .ajax_fireprotect .specification-mounting-items {
+            gap: 8px;
+        }
+
+        .ajax_fireprotect .specification-mounting-items:nth-child(3) {
+            grid-column: 3/4;
+        }
+
+        .ajax_fireprotect .specification-mounting-items-description {
+            font-size: 14px;
+        }
+
+        .ajax_fireprotect .specification-chamber-description {
+            font-size: 18px;
+        }
+
+        .ajax_fireprotect .monitoring {
+            padding: 80px 64px;
+        }
+
+        .ajax_fireprotect .monitoring-title {
+            font-size: 50px;
+        }
+
+        .ajax_fireprotect .monitoring-bg-description {
+            font-size: 24px;
+        }
+
+        .ajax_fireprotect .monitoring-containers {
+            gap: 12px;
+            grid-template-columns: repeat(3, 402px);
+            grid-template-rows: repeat(2, 252px);
+        }
+
+        .ajax_fireprotect .patented-chamber {
+            padding: 0px 64px 40px 64px;
+            gap: 24px;
+        }
+
+        .ajax_fireprotect .patented-chamber-title {
+            font-size: 50px;
+        }
+
+        .ajax_fireprotect .patented-chamber-description {
+            font-size: 18px;
+        }
+
+        .ajax_fireprotect .protection {
+            padding: 80px 64px;
+            column-gap: 64px;
+            grid-template-columns: 502px 672px;
+        }
+
+        .ajax_fireprotect .protection-container {
+            grid-template-rows: 150px 108px;
+            gap: 24px;
+        }
+
+        .ajax_fireprotect .protection-image {
+            border-radius: 16px;
+        }
+
+        .ajax_fireprotect .protection-title {
+            font-size: 50px;
+        }
+
+        .ajax_fireprotect .protection-description {
+            font-size: 18px;
+        }
+
+        .ajax_fireprotect .smart-ignoring {
+            padding: 0px 64px 80px 64px;
+            column-gap: 48px;
+            grid-template-columns: 672px 502px;
+        }
+
+        .ajax_fireprotect .smart-ignoring-container {
+            grid-template-rows: 180px 135px;
+            gap: 24px;
+        }
+
+        .ajax_fireprotect .smart-ignoring-image {
+            border-radius: 16px;
+        }
+
+        .ajax_fireprotect .smart-ignoring-title {
+            font-size: 50px;
+        }
+
+        .ajax_fireprotect .smart-ignoring-description {
+            font-size: 18px;
+        }
+
+        .ajax_fireprotect .threats {
+            padding: 80px 64px 40px 64px;
+        }
+
+        .ajax_fireprotect .threats-second {
+            padding: 80px 64px;
+        }
+
+        .ajax_fireprotect .threats-title {
+            font-size: 50px;
+            margin-bottom: 16px;
+        }
+
+        .ajax_fireprotect .threats-description {
+            width: 795px;
+            margin: 0 auto;
+            font-size: 18px;
+        }
+
+        .ajax_fireprotect .threats-image {
+            width: 100%;
+        }
+
+        .ajax_fireprotect .co-concentration {
+            padding: 0px 64px 80px 64px;
+            column-gap: 64px;
+            grid-template-columns: 502px 672px;
+        }
+
+        .ajax_fireprotect .co-concentration-image {
+            border-radius: 16px;
+        }
+
+        .ajax_fireprotect .co-concentration-title {
+            font-size: 50px;
+            margin-bottom: 24px;
+            width: 700px;
+        }
+
+        .ajax_fireprotect .co-concentration-description {
+            font-size: 18px;
+        }
+
+        .ajax_fireprotect .alarm {
+            padding: 0px 64px;
+            column-gap: 64px;
+            grid-template-columns: 1fr 502px;
+        }
+
+        .ajax_fireprotect .alarm-image {
+            border-radius: 16px;
+        }
+
+        .ajax_fireprotect .alarm-title {
+            font-size: 50px;
+        }
+
+        .ajax_fireprotect .alarm-items-description {
+            font-size: 18px;
+        }
+
+        .ajax_fireprotect .smokeless-fire {
+            padding: 80px 64px;
+        }
+
+        .ajax_fireprotect .smokeless-fire-title {
+            font-size: 50px;
+            margin-bottom: 24px;
+        }
+
+        .ajax_fireprotect .smokeless-fire-description {
+            font-size: 18px;
+        }
+    }
+</style>
+
+<div class="ajax_fireprotect">
+    <div class="hero">
+        <h3 class="hero-title">FireProtect 2<br>
+            (Heat/Smoke/CO)</h3>
+        <p class="hero-description">Беспроводной пожарный датчик тепла, дыма и угарного газа</p>
+    </div>
+    <div class="heat-smoke-video">
+        <video src="https://i.citrus.world/uploads/Haber/Ajax/heat-smoke.mp4" width="100%" autoplay muted loop>
+        </video>
+    </div>
+    <div class="precision">
+        <h3 class="precision-title">Точность сквозь пар, пыль и время</h3>
+        <p class="precision-description">FireProtect 2 — это датчик нового поколения, разработанный для защиты
+            жилых помещений от пожара. Уникальная камера дыма
+            не требует регулярной очистки, двухспектральный сенсор отличает дым от пара, термистор быстро
+            реагирует на горение
+            синтетических материалов, а удобный софт минимизирует ложные срабатывания. Датчик имеет продуманную
+            конструкцию
+            и крепления, что в
+            сочетании с настройками в смартфоне обеспечивает простой и быстрый монтаж. Все это соответствует
+            самым современным стандартам
+            пожарной безопасности.</p>
+    </div>
+    <div class="about">
+        <div class="about-sensors">
+            <div class="about-sensors-devises">
+                <p class="about-sensors-devises-title">Синхронная тройка за 20 секунд</p>
+                <img src="https://i.citrus.world/uploads/Haber/Ajax/about-sensors-devises-image.svg" alt=""
+                    class="about-sensors-devises-image">
+            </div>
+            <div class="about-sensors-batteries">
+                <p class="about-sensors-batteries-title">Версии с разным типом батарей</p>
+                <div class="about-sensors-batteries-container">
+                    <div class="about-sensors-batteries-container-item"><img
+                            src="https://i.citrus.world/uploads/Haber/Ajax/about-sensors-batteries-image-1.svg" alt=""
+                            class="about-sensors-batteries-container-image">
+                        <p class="about-sensors-batteries-description">Сменные</p>
+                    </div>
+                    <div class="about-sensors-batteries-container-item"><img
+                            src="https://i.citrus.world/uploads/Haber/Ajax/about-sensors-batteries-image-2.svg" alt=""
+                            class="about-sensors-batteries-container-image">
+                        <p class="about-sensors-batteries-description">Встроенные</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-sensors-detector">
+                <p class="about-sensors-detector-title">Сенсоры</p>
+                <div class="about-sensors-detector-container">
+                    <img src="https://i.citrus.world/uploads/Haber/Ajax/about-sensors-detector-temperature.svg" alt=""
+                        class="about-sensors-detector-container-image">
+                    <p class="about-sensors-detector-description">Тепла</p>
+                    <img src="https://i.citrus.world/uploads/Haber/Ajax/about-sensors-detector-smoke.svg" alt=""
+                        class="about-sensors-detector-container-image">
+                    <p class="about-sensors-detector-description">Дыма</p>
+                    <img src="https://i.citrus.world/uploads/Haber/Ajax/about-sensors-detector-co-level.svg" alt=""
+                        class="about-sensors-detector-container-image">
+                    <p class="about-sensors-detector-description">CO</p>
+                </div>
+            </div>
+        </div>
+        <div class="about-comunication">
+            <div class="about-comunication-standarts">
+                <p class="about-comunication-standarts-title">Соответствует <br>стандартам</p>
+                <div class="about-comunication-standarts-img-container"><img
+                        src="https://i.citrus.world/uploads/Haber/Ajax/about-comunication-standarts-image-1.svg" alt=""
+                        class="about-comunication-standarts-image">
+                    <img src="https://i.citrus.world/uploads/Haber/Ajax/about-comunication-standarts-image-2.svg" alt=""
+                        class="about-comunication-standarts-image">
+                    <img src="https://i.citrus.world/uploads/Haber/Ajax/about-comunication-standarts-image-2.svg" alt=""
+                        class="about-comunication-standarts-image">
+                </div>
+
+            </div>
+            <div class="about-comunication-remote">
+                <img src="https://i.citrus.world/uploads/Haber/Ajax/about-comunication-remote-image.webp" alt=""
+                    class="about-comunication-remote-image">
+                <p class="about-comunication-remote-title">Дистанционное управление и настройка</p>
+            </div>
+            <div class="about-comunication-siren">
+                <div class="about-comunication-siren-bg-image">
+                    <p class="about-comunication-siren-title">Встроенная сирена 85 dB</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="about-notification">
+            <div class="about-notification-container">
+                <h3 class="about-notification-title">Информативные уведомления в приложении</h3>
+                <div class="about-notification-message">
+                    <img src="https://i.citrus.world/uploads/Haber/Ajax/about-notification-container-image.svg" alt=""
+                        class="about-notification-message-image">
+                    <p class="about-notification-message-title">Ajax</p>
+                    <p class="about-notification-message-uppertitle">now</p>
+                    <p class="about-notification-message-description">Дом: Обнаружен дым, FireProtect 2 в
+                        кухне.
+                    </p>
+                </div>
+                <div class="about-notification-message">
+                    <img src="https://i.citrus.world/uploads/Haber/Ajax/about-notification-container-image.svg" alt=""
+                        class="about-notification-message-image">
+                    <p class="about-notification-message-title">Ajax</p>
+                    <p class="about-notification-message-uppertitle">now</p>
+                    <p class="about-notification-message-description">Дом: Получено фото по сценарию по
+                        по тревоге,
+                        MotionCam<br> в кухне.</p>
+                </div>
+            </div>
+            <div class="about-notification-jeweller">
+                <img src="https://i.citrus.world/uploads/Haber/Ajax/about-notification-jeweller-image.svg" alt=""
+                    class="about-notification-jeweller-image">
+                <p class="about-notification-jeweller-description">Радиосвязь Jeweller</p>
+            </div>
+        </div>
+    </div>
+    <div class="specification">
+        <div class="specification-container">
+            <div class="specification-range">
+                <p class="specification-range-description">До 1,700 м дальность связи с хабом</p>
+            </div>
+            <div class="specification-part-system">
+                <p class="specification-part-system-description">Работает как в составе системы Ajax, так и без
+                    хаба
+                </p>
+            </div>
+            <div class="specification-colors">
+                <img src="https://i.citrus.world/uploads/Haber/Ajax/specification-colors-image.webp" alt=""
+                    class="specification-colors-image">
+                <p class="specification-colors-description">Два цвета</p>
+            </div>
+        </div>
+        <div class="specification-optical-detector">
+            <p class="specification-optical-detector-description">Двухспектральный оптический сенсор дыма для
+                фильтрации ложных тревог</p>
+        </div>
+        <div class="specification-container grid-position">
+            <div class="specification-smartbracket">
+                <img src="https://i.citrus.world/uploads/Haber/Ajax/specification-smartbracket-image.webp" alt=""
+                    class="specification-smartbracket-image">
+                <p class="specification-smartbracket-description">SmartBracket <br> с регулируемым углом
+                    поворота</p>
+            </div>
+            <div class="specification-mounting">
+                <p class="specification-mounting-title">Монтаж без усилий</p>
+                <ul class="specification-mounting-list">
+                    <li class="specification-mounting-items">
+                        <img src="https://i.citrus.world/uploads/Haber/Ajax/qr-code.svg" alt=""
+                            class="specification-mounting-items-image">
+                        <p class="specification-mounting-items-description">QR-код</p>
+                    </li>
+                    <li class="specification-mounting-items">
+                        <img src="https://i.citrus.world/uploads/Haber/Ajax/smart-bracket.svg" alt=""
+                            class="specification-mounting-items-image">
+                        <p class="specification-mounting-items-description">Smart Bracket</p>
+                    </li>
+                    <li class="specification-mounting-items">
+                        <img src="https://i.citrus.world/uploads/Haber/Ajax/application.svg" alt=""
+                            class="specification-mounting-items-image">
+                        <p class="specification-mounting-items-description">Приложение</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="specification-chamber">
+
+            <p class="specification-chamber-description">Защищена от пыли и насекомых<br> дымовая камера</p>
+        </div>
+    </div>
+    <div class="monitoring">
+        <p class="monitoring-title">Мониторинг где угодно</p>
+        <div class="monitoring-containers">
+            <div class="monitoring-bg-image-kitchen">
+                <p class="monitoring-bg-description">Кухня</p>
+            </div>
+            <div class="monitoring-bg-image-living-room">
+                <p class="monitoring-bg-description">Гостиная</p>
+            </div>
+            <div class="monitoring-bg-image-bed-room">
+                <p class="monitoring-bg-description">Спальня</p>
+            </div>
+            <div class="monitoring-bg-image-home-office">
+                <p class="monitoring-bg-description">Домашний офис</p>
+            </div>
+            <div class="monitoring-bg-image-attic">
+                <p class="monitoring-bg-description">Чердак</p>
+            </div>
+            <div class="monitoring-bg-image-basement">
+                <p class="monitoring-bg-description">Подвал</p>
+            </div>
+        </div>
+    </div>
+    <div class="patented-chamber">
+        <h3 class="patented-chamber-title">Запатентованная дымовая камера</h3>
+        <p class="patented-chamber-description">Вдохновившись лучшими мировыми стандартами и практиками
+            обнаружения пожара, Ajax задает совершенно новый уровень безопасности
+            жилых помещений с FireProtect 2. Уникальная камера дыма защищена от пыли и насекомых, а оптический
+            двухспектральный сенсор
+            в сочетании с собственным алгоритмом HazeFlow 2 быстро и точно обнаруживает угрозу, гарантируя
+            максимальную
+            безопасность без ложных
+            тревог.</p>
+    </div>
+    <div class="about-video">
+        <video src="https://i.citrus.world/uploads/Haber/Ajax/about.mp4" width="100%" autoplay muted loop>
+        </video>
+    </div>
+    <div class="protection">
+        <img src="https://i.citrus.world/uploads/Haber/Ajax/protection-image.webp" alt="" class="protection-image">
+        <div class="protection-container">
+            <h3 class="protection-title">Непроницаемая для насекомых и защищенная от пыли</h3>
+            <p class="protection-description">Камера дыма имеет уникальный механизм циркуляции воздуха внутри,
+                что
+                обеспечивает беспрепятственное попадание и
+                идентификацию летучих продуктов горения. При этом запыление или попадание другой грязи, которая
+                может
+                повлиять на качество
+                обнаружения пожара, невозможно.</p>
+        </div>
+    </div>
+    <div class="smart-ignoring">
+        <img src="https://i.citrus.world/uploads/Haber/Ajax/smart-ignoring-image.webp" alt=""
+            class="smart-ignoring-image">
+        <div class="smart-ignoring-container">
+            <h3 class="smart-ignoring-title">Игнорирует дым от приготовления пищи и водяной пар</h3>
+            <p class="smart-ignoring-description">Камера дыма оснащена двухспектральным оптическим сенсором с
+                синим
+                и
+                инфракрасным светодиодами, излучающими свет с
+                волнами разной длины. Эта технология помогает датчику определить размер летучих частиц в режиме
+                реального времени и
+                реагировать только на дым от пожара, игнорируя водяной пар.</p>
+        </div>
+    </div>
+    <div class="threats">
+        <h3 class="threats-title">Реагирует только на реальные угрозы</h3>
+        <p class="threats-description">Алгоритм HazeFlow 2 стал результатом глубокого исследования природы
+            горения различных материалов. В режиме реального
+            времени
+            он анализирует данные, полученные от двухспектрального оптического сенсора, и сравнивает их с
+            паттерном дыма. Благодаря
+            алгоритму
+            датчик быстро отличает дым реального пожара от водяного пара и мгновенно генерирует тревогу.</p>
+    </div>
+    <img src="https://i.citrus.world/uploads/Haber/Ajax/threats-image.webp" alt="" class="threats-image">
+    <div class="threats-second">
+        <h3 class="threats-title">Защищает от невидимых угроз</h3>
+        <p class="threats-description">Угарный газ (CO) - бесцветный газ без вкуса и запаха, который невозможно
+            обнаружить без специального датчика. Именно поэтому
+            отравление угарным газом может произойти незаметно, и даже низкая концентрация вызывает негативное
+            влияние на здоровье. Это
+            особенно опасно для людей с хроническими заболеваниями, беременных, пожилых людей и детей. Даже
+            кратковременное
+            пребывание в помещении с высокой концентрацией угарного газа приводит к необратимому вреду
+            здоровью и даже смерти.
+            FireProtect 2 с помощью встроенного химического сенсора точно определяет уровень CO в воздухе и
+            реагирует на низкую
+            концентрацию 50 ppm. Это позволяет заблаговременно предупредить об опасности еще до появления первых
+            признаков
+            отравления.</p>
+    </div>
+    <div class="co-concentration">
+        <img src="https://i.citrus.world/uploads/Haber/Ajax/co-concentration-image.webp" alt=""
+            class="co-concentration-image">
+        <ul class="co-concentration-description-container">
+            <li class="co-concentration-description-container-items">
+                <h3 class="co-concentration-title">Тревога из-за превышения концентрации СО</h3>
+            </li>
+            <li class="co-concentration-description-container-items">
+                <p class="co-concentration-description">50 ppm в течение не более 90 минут</p>
+            </li>
+            <li class="co-concentration-description-container-items">
+                <p class="co-concentration-description">100 ppm в течение не более 40 минут</p>
+            </li>
+            <li class="co-concentration-description-container-items">
+                <p class="co-concentration-description">300 ppm в течение не более 3 минут</p>
+            </li>
+        </ul>
+    </div>
+    <div class="alarm">
+        <img src="https://i.citrus.world/uploads/Haber/Ajax/alarm-image.webp" alt="" class="alarm-image">
+        <ul class="alarm-list">
+            <li class="alarm-items">
+                <h3 class="alarm-title">Тревога через</h3>
+            </li>
+            <li class="alarm-items">
+                <p class="alarm-items-description">Резкий рост температуры на 10°C в течение минуты</p>
+            </li>
+            <li class="alarm-items">
+                <p class="alarm-items-description">Превышение пороговой температуры +64°C</p>
+            </li>
+        </ul>
+    </div>
+    <div class="smokeless-fire">
+        <h3 class="smokeless-fire-title">Даже если огонь без дыма</h3>
+        <p class="smokeless-fire-description">FireProtect 2 имеет два термистора класса A1R для обнаружения
+            бездымного
+            пожара. Они дают значительное преимущество, когда температура
+            резко возрастает из-за горения синтетических материалов или когда горение начинается с тления.
+            Термисторы
+            размещены вне
+            за пределами корпуса - так датчик обнаруживает пожар без задержки, не теряя ни одной драгоценной
+            минуты.
+            FireProtect 2 мгновенно
+            оповестит об угрозе, даже если она возникнет незаметно.</p>
+    </div>
+</div>

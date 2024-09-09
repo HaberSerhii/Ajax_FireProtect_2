@@ -589,7 +589,6 @@ body {
   justify-items: center;
   border-radius: 16px;
   padding: 16px 8px;
-  height: 89px;
   background-image: url("https://i.citrus.world/uploads/Haber/Ajax/specification-chamber.webp");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1501,7 +1500,7 @@ body {
     content: "•";
     position: absolute;
     left: 8px;
-    top: 4px;
+    top: 0px;
   }
 
   .ajax_fireprotect .alarm {
