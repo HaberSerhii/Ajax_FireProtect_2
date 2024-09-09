@@ -2367,7 +2367,7 @@ body {
   }
 
   .ajax_fireprotect .protection-container {
-    grid-template-rows: 120px 108px;
+    grid-template-rows: 150px 108px;
     gap: 24px;
   }
 
