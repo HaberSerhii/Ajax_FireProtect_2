@@ -8,7 +8,6 @@
 </head>
 
 <body>
-    <button class="button__language" id="lang-switch">Включить руссскую версию</button>
     <div class="main__rich__container" id="content">
         <div class="ajax_fireprotect lang uk">
             <div class="patented-chamber">
@@ -42,29 +41,5 @@
         </div>
     </div>
 </body>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        let currentLang = 'uk';
-        const ukText = document.querySelector('.lang.uk');
-        const ruText = document.querySelector('.lang.ru');
-        const switchButton = document.getElementById('lang-switch');
-
-        ukText.classList.add('active');
-
-        switchButton.addEventListener('click', function () {
-            if (currentLang === 'uk') {
-                ukText.classList.remove('active');
-                ruText.classList.add('active');
-                switchButton.textContent = 'Увімкнути українську версію';
-                currentLang = 'ru';
-            } else {
-                ruText.classList.remove('active');
-                ukText.classList.add('active');
-                switchButton.textContent = 'Включить русскую версию';
-                currentLang = 'uk';
-            }
-        });
-    });
-</script>
 
 </html>
